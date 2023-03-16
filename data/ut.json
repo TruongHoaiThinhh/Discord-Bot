@@ -1,0 +1,1834 @@
+{
+    "1" : {
+        "1" : {
+            "name" : "Crown of Light",
+            "effect" : "**[Judgement Blade]** Reduces Cooldown by 30% and increases DMG by `plhdr1%` upon every use. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        },
+        "2" : {
+            "name" : "Emperor's Gauntlet",
+            "effect" : "**[Valiant Dash]** Increases DMG by `plhdr1%` and reduces Cooldown by 10% upon a Crit Hit.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Proxy's Insignia",
+            "effect" : "**[Proxy of God]** Additionally, Dodge Rate is increased by 250, and ATK Spd is increased by `plhdr1` for the duration of skill.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "4" : {
+            "name" : "Lua's Tear",
+            "effect" : "**[Goddess Strike]** Increases DEF Boost by 50%, and DMG dealt to bosses by `plhdr1%`.",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        }
+    },
+    "2" : {
+        "1" : {
+            "name" : "Angel's Egg",
+            "effect" : "**[Miraculous Light]** Increases Heal Rate by 50% and target becomes Immune to DMG for `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Miraculous Medal",
+            "effect" : "**[Blessings of Light]** Increases shield amount by 50% and recovers `plhdr1` Mana every second for 4 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Forgotten Arbiter's Feather",
+            "effect" : "**[Heaven's Vengeance]** Target takes `plhdr1%` increased M.DMG for 10 sec, and Blind duration is increased by 1 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Angelic Advent",
+            "effect" : "**[Goddess Grace]** Upon activation, dispels all negative effects from the target and increases the target's Heal Rate by `plhdr1%` for the duration of skill.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "3" : {
+        "1" : {
+            "name" : "Phoenix Lantern",
+            "effect" : "**[Fire Needle]** Changes target to the enemy with the highest ATK and reduces the target's Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "2" : {
+            "name" : "Flamel's Elixir",
+            "effect" : "[Fire Ball] Reduces Mana Cost by 1 and increases DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Tome of Purgatory",
+            "effect" : "**[Fire Rain]** Increases DMG by `plhdr1%`. Upon Critical Hit on an enemy with 5 or more stacks of Ember, Cooldown will be reduced by 5%. Upon killing an enemy with this Skill, Cooldown will be reduced by an additional 20%.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Introduction to Red Witch Spells",
+            "effect" : "**[Flame Diffusion]** Ember becomes irremovable and causes the target to take `plhdr1%` increased M.DMG per stack.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        }
+    },
+    "4" : {
+        "1" : {
+            "name" : "Cracked Mask",
+            "effect" : "**[Blade Claw]** DMG is increased by `plhdr1%` and upon Crit Hit, Mana is recovered by 300.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Soma's Hood",
+            "effect" : "**[Curtain of Darkness]** Increases ATK Boost by `plhdr1%` and gains CC Resist by 400 for the skill's duration.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Shadow Blade",
+            "effect" : "**[No Mercy]** Dispels all negative effects from self, and recovers Mana by `plhdr1` upon Critical Hit.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "4" : {
+            "name" : "Specter's Ring",
+            "effect" : "**[Hack]** Increases DMG by 50%. Upon a Critical Hit, increases own ATK Spd by `plhdr1` for 5 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        }
+    },
+    "5" : {
+        "1" : {
+            "name" : "King of Frost Helmet",
+            "effect" : "**[Smash]** Reduces the target's ATK by 20% and increases P.DMG target receives by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Fighter's Horn",
+            "effect" : "**[Battle Roar]** Reduces Mana Cost by 1 and increases ATK Boost by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Barbarian Mug",
+            "effect" : "**[Vortex]** DMG is increased by 50%, and enemies hit by the last attack takes `plhdr1%` more DMG for 10 sec.",
+            "plhdr1" : {"0" : "5", "1" : "6", "2" : "7", "3" : "8.5", "4" : "10.5", "5" : "12.5"}
+        },
+        "4" : {
+            "name" : "Snowdrop Bracelet",
+            "effect" : "**[Enrage]** Increases the max number of stacks by `plhdr1`. Each stack increases DEF Penetration by 10.",
+            "plhdr1" : {"0" : "1", "1" : "2", "2" : "3", "3" : "4", "4" : "5", "5" : "6"}
+        }
+    },
+    "6" : {
+        "1" : {
+            "name" : "Mad Dragon Shield Decoration",
+            "effect" : "**[Collision]** Reduces the target's CC Resist by 250 and P.Block chance by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Dwarfish Capricorn Helmet",
+            "effect" : "**[Headbutt]** Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "3" : {
+            "name" : "Dwarven Ceremonial Hammer",
+            "effect" : "**[Earth Incarnate]** For the duration of the skill, ATK Spd and Crit Chance is increased by 250, and DEF boost is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Hammer of Titan",
+            "effect" : "**[Destroy Armor]** Upon attack, reduces the target's ATK by 20% and each stack reduces its Heal Rate by `plhdr1%`",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        }
+    },
+    "7" : {
+        "1" : {
+            "name" : "Cudgel Bullet",
+            "effect" : "**[Rapid Fire]** Increases DMG by 50%, and increases P.DMG target receives by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Special Gas Mask",
+            "effect" : "**[Smoke Bomb]** Reduces Cooldown by 30% and increases blind duration by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "3" : {
+            "name" : "Goblincraft Special High-Density Gunpowder",
+            "effect" : "**[Glue Bomb]** DMG is increased by 50% and upon Crit Hit, recovers `plhdr1` Mana.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "4" : {
+            "name" : "Bada Boom Cannonball",
+            "effect" : "**[Load Cannon]** Reduces Mana of hit enemies by `plhdr1`. The first strike in a battle will activate **[Load Cannon]**.",
+            "plhdr1" : {"0" : "400", "1" : "480", "2" : "580", "3" : "700", "4" : "840", "5" : "1000"}
+        }
+    },
+    "8" : {
+        "1" : {
+            "name" : "Thunderstone Bracelet",
+            "effect" : "**[Thunderbolt]** Reduces the target's Heal Rate by 30% and the target's Mana by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "2" : {
+            "name" : "Thunderbird Mask",
+            "effect" : "**[Healing Rain]** Absorbs DMG of `plhdr1%` ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "3" : {
+            "name" : "Skywind Feather Decoration",
+            "effect" : "**[Swift Wind]** Mana cost is reduced by 1, and Crit DMG `plhdr1%` boost effect is added.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Skywind Stone",
+            "effect" : "**[Chain Lightning]** Reduces the target's ATK Spd by 250 and increases M.DMG it takes by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "9" : {
+        "1" : {
+            "name" : "Green Fairy",
+            "effect" : "**[Absorbing Blow]** Increases DMG by `plhdr1%` and upon killing an enemy, ATK is increased by 20% for 10 sec. ATK increase effect can be stacked up to max 3 times.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Succubus's Box",
+            "effect" : "**[Nightmare]** Increases DMG by 50% and stuns the affected enemy for `plhdr1` sec.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        },
+        "3" : {
+            "name" : "Seductress Shoes",
+            "effect" : "**[Devil's Prom]** Mana cost is reduced by 1, and Crit DMG is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Memory of Dream",
+            "effect" : "**[Harvest]** Increases ATK boost by 50%. Killing an enemy increases ATK Spd by `plhdr1`. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "10" : {
+        "1" : {
+            "name" : "Sharpshooter's Gloves",
+            "effect" : "**[Arrow Rain]** Reduces Mana Cost by 1 and Cooldown by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Wind Spirit Seal Stone",
+            "effect" : "**[Rush]** Increases DMG by `plhdr1%` and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Silver Arrow",
+            "effect" : "**[Moonlight Flash]** DMG is increased by `plhdr1%` and target takes 20% additional P.DMG for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Circlet of Wind",
+            "effect" : "**[Moonlight Arrow]** Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by `plhdr1%`.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "11" : {
+        "1" : {
+            "name" : "Turbulent Dance",
+            "effect" : "**[Raven Storm]** Gains immunity to CC for the skill's duration, and reduces the target's Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "2" : {
+            "name" : "Spirit's Sabaton",
+            "effect" : "**[Claw of Restrictions]** Increases DMG by 50% and increases M.Weakness of the affected enemy by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Pendant of Darkness",
+            "effect" : "**[Area of Darkness]** DMG is increased by `plhdr1%` and the last attack reduces the target's P.DEF and M.DEF by 30% for 7 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Abyssal Letter",
+            "effect" : "**[Black Wind]** Every 10 sec, attacks enemies affected by Black Wind, dealing M.DMG equal to 200% of ATK. Increases own ATK by `plhdr1%` for 20 sec per hit enemy. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "12" : {
+        "1" : {
+            "name" : "Coin of the Deep",
+            "effect" : "**[Baaaam!]** Gains Immunity to CC for the skill's duration, and reduces the target's P.Crit Resistance by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Pirate King's Sextant",
+            "effect" : "**[Roll Over]** increases DMG by `plhdr1%` on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to 10 times.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        },
+        "3" : {
+            "name" : "Miruru Cannonball",
+            "effect" : "**[Miruru Pirates!]** DMG is increased by 50%, and skill cooldown is reduced by `plhdr1%`",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        },
+        "4" : {
+            "name" : "Turtle Gunpowder Keg",
+            "effect" : "**[Boooooom!]** Increases DMG by 50%. Upon activation, increases ATK Spd by `plhdr1` for 3 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        }
+    },
+    "13" : {
+        "1" : {
+            "name" : "Book of Life",
+            "effect" : "**[Thornbush Forest]** Reduces Mana Cost by 1 and Cooldown by `plhdr1` sec.",
+            "plhdr1" : {"0" : "0.8", "1" : "1", "2" : "1.2", "3" : "1.4", "4" : "1.7", "5" : "2"}
+        },
+        "2" : {
+            "name" : "Deadly Belladonna",
+            "effect" : "**[Tangled Vine]** Reduces Mana Cost by 1 and drains `plhdr1` MP from the affected enemy.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "3" : {
+            "name" : "Root of the World Tree",
+            "effect" : "**[Wrath of the Forest]** DMG is increased by `plhdr1%`. Upon Crit Hit on enemies with over 5 stacks of Poison, skill cooldown is reduced by 4%.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Terrarium of Circulation",
+            "effect" : "**[Blade Leaf]** Increases activation chance by 20%. Targets take `plhdr1%` increased M.DMG for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "14" : {
+        "1" : {
+            "name" : "Cape of Justice",
+            "effect" : "**[Cut Ground]** Increases P.DMG target receives by `plhdr1%` for 10 sec, and recovers own Mana by 400 per every hit enemy.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Firm Determination",
+            "effect" : "**[Shield Strike]** Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Guardian Knight Insignia",
+            "effect" : "**[Guardian Shield]** Upon activation, removes negative effects on self, and DEF boost is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Mittens",
+            "effect" : "**[Vow of Knights]** Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by `plhdr1%` for 5 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "15" : {
+        "1" : {
+            "name" : "Melody of Blue Star",
+            "effect" : "**[Healing Soul]** Reduces Mana Cost by 1, and increases the target's CC ACC by `plhdr1` for the duration of skill.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "2" : {
+            "name" : "Seed of Birth",
+            "effect" : "**[Salvation]** Increases M.DEF Boost by 50% and reduces Cooldown by `plhdr1%`.",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        },
+        "3" : {
+            "name" : "Haven of Souls",
+            "effect" : "**[Soulrush]** Mana cost is reduced by 1 and heals all allies' HP by `plhdr1%` of DMG.",
+            "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+        },
+        "4" : {
+            "name" : "Blue Star Candy",
+            "effect" : "**[Spiritual Tuning]** Increases Heal Rate by 50%. Targets have their ATK increased by `plhdr1%` for 4 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "16" : {
+        "1" : {
+            "name" : "Vow of Black Moon",
+            "effect" : "**[Dark Rampage]** Dispels all negative effects from self and reduces Cooldown by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Unbreakable Bracelet",
+            "effect" : "**[Black Shackle]** Increases DMG by 50% and increases M.Weakness of the target by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Eye of Shadows",
+            "effect" : "**[Shadow Wave]** DMG is increased by 50% and Blind duration is increased by `plhdr1` sec.",
+            "plhdr1" : {"0" : "2", "1" : "2.5", "2" : "3", "3" : "3.5", "4" : "4", "5" : "4.5"}
+        },
+        "4" : {
+            "name" : "Black Crown",
+            "effect" : "**[Black Stain]** Increases the Range of normal attacks by 20%, each hit increasing DMG by `plhdr1%`. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "17" : {
+        "1" : {
+            "name" : "Wing of Lightning Flash",
+            "effect" : "**[Float Like a Butterfly]** Increases DMG by `plhdr1%` and reduces the target's P.Block chance by 500 for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Master's Ring",
+            "effect" : "**[Sharp End]** Increases ATK Boost by 50% and recovers additional `plhdr1` MP upon a Crit Hit for the skill's duration.",
+            "plhdr1" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "84", "5" : "100"}
+        },
+        "3" : {
+            "name" : "Medal of Swiftness",
+            "effect" : "**[Shooting Star]** DMG is increased by `plhdr1%` and upon Crit Hit, mana is recovered by 200.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Amethyst Pin",
+            "effect" : "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "18" : {
+        "1" : {
+            "name" : "Source of Snow",
+            "effect" : "**[Wedge of Cold Snap]** Increases DMG by `plhdr1%` and upon casting, increases CC ACC by 400 for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Frozen Brooch",
+            "effect" : "**[Ice Spear]** Reduces Cooldown by 8% and has a `plhdr1%` chance to freeze the enemy for 1 sec upon damaging the enemy in Frost state. This effect is not applied to additionally created spears.",
+            "plhdr1" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "84", "5" : "100"}
+        },
+        "3" : {
+            "name" : "Glacial Heart",
+            "effect" : "**[Icy Conquest]** DMG is increased by 50% and Freeze duration is increased by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "4" : {
+            "name" : "Ice Dragon's Heart",
+            "effect" : "**[Chill of Early Dawn]** Increases the number of targets by 1. Upon a Critical Hit, recovers own Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        }
+    },
+    "19" : {
+        "1" : {
+            "name" : "Chest of Ziltrion",
+            "effect" : "**[Penetration]** Increases ACC by 750, and CC ACC by `plhdr1` for the duration of skill.",
+            "plhdr1" : {"0" : "300", "1" : "360", "2" : "430", "3" : "520", "4" : "630", "5" : "750"}
+        },
+        "2" : {
+            "name" : "Shield of Resolution",
+            "effect" : "**[Will to Win]** Increases DMG by 50% and P.Weakness of the target by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Aura of Protection",
+            "effect" : "**[Steel Fortress]** Mana cost is reduced by 1 and jump attack's Stun duration is increased by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.5", "2" : "2", "3" : "2.5", "4" : "3", "5" : "3.5"}
+        },
+        "4" : {
+            "name" : "Hammer of Titan",
+            "effect" : "**[Spearhead]** Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by `plhdr1`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        }
+    },
+    "20" : {
+        "1" : {
+            "name" : "Soul of Gust",
+            "effect" : "**[Fierce Winds]** Increases DMG by 50%, and reduces the target's P.Dodge chance by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Himmullis's Scarf",
+            "effect" : "**[Wind Reading]** Increases ATK Boost by 50% and M.Dodge by `plhdr1`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Tempest Pride",
+            "effect" : "**[Dive Bomb]** Skill cooldown is reduced by 30% and target takes `plhdr1%` more P.DMG for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Green Ribbon",
+            "effect" : "**[Tornado Strike]** Reduces the target's P.Block by 500 and P.Dodge by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        }
+    },
+    "21" : {
+        "1" : {
+            "name" : "Shock-absorbing Special Guard",
+            "effect" : "**[Penetration Shot]** Takes 40% reduced P.DMG and M.DMG for the skill's duration, and upon Critical Hit, increases own ATK by `plhdr1%` for 10 sec. ATK increase can be stacked up to max 4 times.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Crystal Support",
+            "effect" : "**[Target Aim]** Changes the target to a random enemy when Rodina's target dies, increasing ATK by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Custom Bullet VII",
+            "effect" : "**[Focus Fire]** Increased DMG by `plhdr1%` and inflicts damage ignoring the target's DEF with the last 2 shots.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Gun Encyclopedia",
+            "effect" : "**[Consecutive Shot]** Changes the number of targets to 2. Hit enemies have their P.Crit Resistance reduced by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        }
+    },
+    "22" : {
+        "1" : {
+            "name" : "Hell's Eye",
+            "effect" : "**[Burning Power]** Increases DMG by `plhdr1%` and Flame stacked upon enemies become irremovable.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Hatchling Leather Gloves",
+            "effect" : "**[Hellfire]** Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by `plhdr1` and M.Crit resistance is increased by 250.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Hellish Sealing Stone",
+            "effect" : "**[Lava Eruption]** DMG is increased by `plhdr1%` and target's M.DEF is decreased by 25% for 7 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Jewel of Inferno",
+            "effect" : "**[Fire Smash]** Increases the number of Flame stacks by 3. Hit targets have their ATK Spd reduced by `plhdr1` for 5 sec.",
+            "plhdr1" : {"0" : "140", "1" : "170", "2" : "210", "3" : "250", "4" : "300", "5" : "360"}
+        }
+    },
+    "23" : {
+        "1" : {
+            "name" : "Old Holy Grail",
+            "effect" : "**[Holy Nova]** Reduces Mana Cost by 1 and increases Heal Rate by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Last Chapter of the Bible",
+            "effect" : "**[Spear of Light]** Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Well-Worn Rosary",
+            "effect" : "**[Holy Sanctuary]** ATK is increased by 25% for the duration of skill, and recovers `plhdr1` Mana per sec.",
+            "plhdr1" : {"0" : "120", "1" : "140", "2" : "170", "3" : "210", "4" : "250", "5" : "300"}
+        },
+        "4" : {
+            "name" : "Scorched Journal",
+            "effect" : "**[Training of God]** Increases Stun duration by `plhdr1` sec. Hit enemies take 25% increased M.DMG for 5 sec.",
+            "plhdr1" : {"0" : "0.5", "1" : "0.6", "2" : "0.7", "3" : "0.8", "4" : "0.9", "5" : "1"}
+        }
+    },
+    "24" : {
+        "1" : {
+            "name" : "Funeral Doll",
+            "effect" : "**[Funeral Rites]** For 10 sec, reduces the target's CC Resist by 250 and M.Block by `plhdr1`.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Death-imbued Cushion",
+            "effect" : "**[Mark of Death]** Increases ATK by 5% and Crit DMG by `plhdr1%` for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Flowers of a Forgotten Dukedom",
+            "effect" : "**[Day of Ruin]** DMG is increased by `plhdr1%` and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can stack to max 10 times.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "First Friend Doll",
+            "effect" : "**[Rest in Peace]** Upon activation, dispels all negative effects from all allies and reduces All DMG dealt on self by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "25" : {
+        "1" : {
+            "name" : "Flower of Purple",
+            "effect" : "**[Mystic Barrage]** Reduces Cooldown by `plhdr1` sec, and for 10 sec, increases M.DMG target receives by 25%.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Noble Hand Mirror",
+            "effect" : "**[Destruction Ray]** Increases DMG by 50% and recovers `plhdr1` MP immediately upon use.",
+            "plhdr1" : {"0" : "500", "1" : "600", "2" : "720", "3" : "860", "4" : "1040", "5" : "1250"}
+        },
+        "3" : {
+            "name" : "Ring of Infinite Mana",
+            "effect" : "**[Torrential Rainfall]** DMG is increased by 50% and upon Crit Hit, recovers `plhdr1` Mana.",
+            "plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"}
+        },
+        "4" : {
+            "name" : "Eyes of Truth",
+            "effect" : "**[Mystic Boost]** Increases DMG by 50%. Upon activation, increases own Crit DMG by `plhdr1%`. This effect can be stacked up to max 20 times.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        }
+    },
+    "26" : {
+        "1" : {
+            "name" : "Ancient Letter Encyclopedia - First Volume",
+            "effect" : "**[Rune of Frailty]** Becomes irremovable and increases DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Ink of Vitality",
+            "effect" : "**[Rune of Healing]** Increases Heal Rate by 50% and P.Crit Resistance of allies by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Scroll of Memories",
+            "effect" : "**[Rune of Silence]** Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by `plhdr1`.",
+            "plhdr1" : {"0" : "120", "1" : "140", "2" : "170", "3" : "210", "4" : "250", "5" : "300"}
+        },
+        "4" : {
+            "name" : "Golden Magnifier",
+            "effect" : "**[Rune of Protection]** Increases the number of targets by 1. Targets have their ATK Spd increased by 200 for the duration of skill.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "27" : {
+        "1" : {
+            "name" : "Eye of the Storm Belt",
+            "effect" : "**[Tempest Blade]** Reduces Mana Cost by 1 and upon every use, increases DMG by `plhdr1%`. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        },
+        "2" : {
+            "name" : "Tempting Perfume",
+            "effect" : "**[Flashstep]** Changes the Mark irremovable and increases ATK by `plhdr1%` for 10 sec once the enemy with the mark is killed.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Immortal Rose",
+            "effect" : "**[Bloody Petals]** DMG is increased by `plhdr1%` and dodges all M.ATK during the duration of skill.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Sealed Confidential Letter",
+            "effect" : "**[Spell Cutter]** Upon activation, increases own ATK Spd by `plhdr1` for 4 sec. The duration of the dodge effect increases by 1 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        }
+    },
+    "28" : {
+        "1" : {
+            "name" : "Golden Bell of Luck",
+            "effect" : "**[Pew!]** Increases DMG by 20%, and upon Critical Hit, recovers Mana by `plhdr1`",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Moonlight Carrot",
+            "effect" : "**[Look Out Above!]** Increases DMG by `plhdr1%` and reduces Cooldown by 10% upon a Crit Hit",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Never-Melting Snow Flower",
+            "effect" : "**[Twinkle Twinkle]** Crit Chance Reduction will not be dispelled, and the effect duration will increase by `plhdr1` sec.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        },
+        "4" : {
+            "name" : "Carrot Cake",
+            "effect" : "**[Gotcha!]** Greatly increases the knockback range, and Cooldown is reduced by `plhdr1` sec.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "29" : {
+        "1" : {
+            "name" : "Water Dragon Scale",
+            "effect" : "**[Healing Droplets]** Increases Heal Rate by 50%, and for 10 sec, increases the target's M.Block by `plhdr1`.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Oasis Crystal",
+            "effect" : "**[Bubble Shield]** Reduces Cooldown by `plhdr1%` and dispels Negative Effects from the target.",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        },
+        "3" : {
+            "name" : "Papyrus of the Flow",
+            "effect" : "**[Festival of the Flow]** Whirlpool effect targets 2 enemies and all allies recover additional `plhdr1` Mana.",
+            "plhdr1" : {"0" : "500", "1" : "600", "2" : "720", "3" : "860", "4" : "1040", "5" : "1250"}
+        },
+        "4" : {
+            "name" : "Tear of God Dragon",
+            "effect" : "**[Blessing of the Water Dragon]** Increases DEF boost by 50%. All allies recover Mana by `plhdr1` every sec.",
+            "plhdr1" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "84", "5" : "100"}
+        }
+    },
+    "30" : {
+        "1" : {
+            "name" : "Holy Golden Arrow",
+            "effect" : "**[Celestial Arrow]** Increases DMG by `plhdr1%` and the number of targets by 1.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Magic Square of Pursuit",
+            "effect" : "**[Purifying Blaze]** Reduces Mana Cost by 1 and increases DMG by `plhdr1%`",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Eye of Heaven",
+            "effect" : "**[Arbiter]** DMG is increased by `plhdr1%` and all allies' ATK is increased by 30% for the duration of M.Shield.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Bell of Punishment",
+            "effect" : "**[The Last Judgment]** Upon receiving fatal DMG, heals HP of all allies by 15% of Max HP, and silences entire enemies for `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        }
+    },
+    "31" : {
+        "1" : {
+            "name" : "Old Silver Cup",
+            "effect" : "**[Blood Orb]** Increases DMG by 50% and leaves `plhdr1` stacks of Blood Curse on the target.",
+            "plhdr1" : {"0" : "5", "1" : "6", "2" : "7", "3" : "8", "4" : "9", "5" : "10"}
+        },
+        "2" : {
+            "name" : "Spell of Bloody Mist",
+            "effect" : "**[Blood Zone]** Increases DMG by `plhdr1%` and the effect duration by 2 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Blood of the Ancients",
+            "effect" : "**[Blood Banquet]** DMG is increased by `plhdr1%` and upon Crit Hit, recovers 400 mana.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Red Ring",
+            "effect" : "**[Blood Dominator]** Increases DMG of Blood Curse by 50%. Upon attacking enemies inflicted with 100 or more stacks of Blood Curse, increases own ATK by 1% for 10 sec. ATK boost can be stacked up to max `plhdr1` times.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"}
+        }
+    },
+    "32" : {
+        "1" : {
+            "name" : "Dimensional Magical Circle",
+            "effect" : "**[Dimension Blade]** Increases the number of targets by 1, and for 10 sec, reduces the target's P.Block by `plhdr1`.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Sword of Flow Cutting",
+            "effect" : "**[Dimension Cleaver]** DMG is increased by 50% and own Crit DMG is increased by `plhdr1%` for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Dimension Stone",
+            "effect" : "**[Infinity Blades]** Mana cost is reduced by 1 and DMG is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Spring of Galaxy",
+            "effect" : "**[Hidden Blade]** Increases DMG by 50%. Increases own Crit DMG by `plhdr1%` for 5 sec upon each successful hit. Crit DMG boost can be stacked up to max 20 times.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        }
+    },
+    "33" : {
+        "1" : {
+            "name" : "Triplex Condensing Lens",
+            "effect" : "**[Ray of Annihilation]** For 10 sec, reduces the target's Crit Chance by 250 and the target's Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "400", "1" : "480", "2" : "580", "3" : "700", "4" : "840", "5" : "1000"}
+        },
+        "2" : {
+            "name" : "Script of Healing",
+            "effect" : "**[Emergency Treatment]** Reduces Mana Cost by 1 and increases heal rate by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Code of Annihilation",
+            "effect" : "**[Process of Elimination]** DMG is increased by `plhdr1%` and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "High Performance Battery",
+            "effect" : "**[Charge]** Gains `plhdr1` stacks of Charge at the beginning of every battle. While in Overcharge, Normal attacks increase Cooldown Reduction by 5%.",
+            "plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "63", "5" : "75"}
+        }
+    },
+    "34" : {
+        "1" : {
+            "name" : "Potential Madness",
+            "effect" : "**[Bang! Bang!!]** Increases DMG by 50% and reduces Cooldown by `plhdr1` sec.",
+            "plhdr1" : {"0" : "0.8", "1" : "1", "2" : "1.2", "3" : "1.4", "4" : "1.7", "5" : "2"}
+        },
+        "2" : {
+            "name" : "Wolf's Barrage Box",
+            "effect" : "**[Time to Die!]** Reduces Mana Cost by 1, and increases DMG dealt to bosses by `plhdr1%` for the duration of Skill.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Wolfhead Mercenary Insignia",
+            "effect" : "**[Dance With Me!!]** DMG is increased by `plhdr1%` and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Song of Madness",
+            "effect" : "**[You're Next!!]** Increases DMG by `plhdr1%`. Upon attacking enemies inflicted with 100 or more stacks of 'Mark of Death', increases own Crit DMG by 2% for 10 sec. Crit DMG boost can be stacked up to max 25 times.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "35" : {
+        "1" : {
+            "name" : "Stole of Templar",
+            "effect" : "**[Destruction]** For 10 sec, reduces the target's ATK by 20% and increases P.DMG and M.DMG target receives by `plhdr1%`.",
+            "plhdr1" : {"0" : "5", "1" : "6", "2" : "7", "3" : "8.5", "4" : "10.5", "5" : "12.5"}
+        },
+        "2" : {
+            "name" : "Pride of Holy Warrior",
+            "effect" : "**[Divine Protection]** Gains Immunity to CC and increases M.Resistance by `plhdr1%` for the skill's duration.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Templar Vow",
+            "effect" : "**[Divine Judgement]** dispels enemies' positive effects with a 75% chance, and reduces target's ATK Spd by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "200", "5" : "250"}
+        },
+        "4" : {
+            "name" : "Pendant of Benevolence",
+            "effect" : "**[Divine Blessing]** Increases duration by 5 sec. Reduces M.DMG dealt to self by `plhdr1%` per stack.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.0", "5" : "2.5"}
+        }
+    },
+    "36" : {
+        "1" : {
+            "name" : "Copied Codex of Stealth",
+            "effect" : "**[Target Sighted]** Increases DMG by 50%, and after use, recovers Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "400", "1" : "480", "2" : "580", "3" : "700", "4" : "840", "5" : "1000"}
+        },
+        "2" : {
+            "name" : "Laughing Mask All-round Belt",
+            "effect" : "**[Blade Tornado]** Increases DMG by `plhdr1%` and reduces Cooldown by 8% upon a Crit Hit.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Dagger of Silence",
+            "effect" : "**[Whisper of Death]** DMG is increased by `plhdr1%` and upon use, immediately gains Stealth. If used in Stealth mode, ATK is increased by 20% for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Needle of Silence",
+            "effect" : "**[Silent Ambush]** Upon activation, recovers own Mana by `plhdr1` while reducing the target's Mana by 200.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "200", "5" : "250"}
+        }
+    },
+    "37" : {
+        "1" : {
+            "name" : "Wild Beast's Leather Belt",
+            "effect" : "**[Destructive Instinct]** Upon use, heals own HP by 15%, and for 10 sec, increases M.DMG target receives by `plhdr1%`.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Wild Beast's Choker",
+            "effect" : "**[Dawning Despair]** Gains Immunity to CC for the skill's duration and increases ATK Spd by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Sealing Binds",
+            "effect" : "**[Strike of Doom]** DMG is increased by `plhdr1%` and gains 1 additional stack of **[Cursed Blood]** after using the skill.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Sculpture of Blood",
+            "effect" : "At the beginning of first battle, Ezekiel gains 2 stacks of **[Cursed Blood]**. While under Fury, DMG dealt to bosses increases by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "38" : {
+        "1" : {
+            "name" : "Feather Decoration of Crimson Bird",
+            "effect" : "**[Softly~]** Increases Heal Rate by 50% and the duration of Silence by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.5", "2" : "2", "3" : "2.5", "4" : "3", "5" : "3.5"}
+        },
+        "2" : {
+            "name" : "Fancy Ornament",
+            "effect" : "**[Fiercely!]** Increases duration by 5 sec and additionally increases Crit DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Golden Fragrance",
+            "effect" : "**[Tempting Wave]** Skill cooldown is reduced by 30% and Charm duration is increased by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.5", "2" : "2", "3" : "2.5", "4" : "3", "5" : "3.5"}
+        },
+        "4" : {
+            "name" : "Reed Diffuser of Seduction",
+            "effect" : "**[Gentle Touch]** DEF boost becomes irremovable. All allies have their All Crit Resistance increased by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        }
+    },
+    "39" : {
+        "1" : {
+            "name" : "Fur Decoration of Sable",
+            "effect" : "**[Final Crash]** Dispels all negative effects from self, and upon each hit, has an `plhdr1%` chance to remove all positive effects from the target.",
+            "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+        },
+        "2" : {
+            "name" : "God of Lightning's Necklace",
+            "effect" : "**[God of Lightning]** ATK Spd is increased by 250 for the duration of skill, and the activation chance of **[For Jane]** is increased by an additional `plhdr1%`.",
+            "plhdr1" : {"0" : "8", "1" : "9.6", "2" : "11.5", "3" : "13.8", "4" : "16.5", "5" : "20"}
+        },
+        "3" : {
+            "name" : "Essence of Red Lightning",
+            "effect" : "**[Lightning Explosion]** Skill cooldown is reduced by 30% and upon attack, deals `plhdr1%` of ATK as extra M.DMG",
+            "plhdr1" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "84", "5" : "100"}
+        },
+        "4" : {
+            "name" : "Another Funeral Doll",
+            "effect" : "**[For Jane]** Increases activation chance by `plhdr1%` and own ATK Spd by 350 for 30 sec at the beginning of every battle.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "40" : {
+        "1" : {
+            "name" : "Strangely Healthy Injection",
+            "effect" : "**[Healing Salve]** Increases Heal Rate by 50%, and for 10 sec, increases the target's Crit DMG by `plhdr1%`",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Special Potion of Double Reaction",
+            "effect" : "**[Special Water Cannon]** Increases Resistance by 30% and reduces Cooldown by `plhdr1%`.",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        },
+        "3" : {
+            "name" : "Mysterious Potion",
+            "effect" : "**[Strengthening Potion]** dispels target's negative effects and target gains immunity to CC for `plhdr1` sec.",
+            "plhdr1" : {"0" : "2", "1" : "3", "2" : "4", "3" : "5", "4" : "6", "5" : "7"}
+        },
+        "4" : {
+            "name" : "Old Medical Report",
+            "effect" : "**[Mediana's Special Poison]** Increases ATK boost by 50%. All allies take `plhdr1%` reduced P.DMG.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        }
+    },
+    "41" : {
+        "1" : {
+            "name" : "Exquisite Orbment",
+            "effect" : "**[Time Fracture]** Gains immunity to CC for the skill's duration, and reduces the target's Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "400", "1" : "480", "2" : "580", "3" : "700", "4" : "840", "5" : "1000"}
+        },
+        "2" : {
+            "name" : "Fragment Collection",
+            "effect" : "**[Time Fragments]** Has a 25% chance to reset Cooldown and increases DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Threads of Time",
+            "effect" : "**[Time Distortion]** DMG is increased by `plhdr1%` and all allies' negative effects are dispelled.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Time Manipulating Clockwork",
+            "effect" : "**[Clock Magic]** Increases DMG by 50%. Hit enemies take `plhdr1%` increased M.DMG for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "42" : {
+        "1" : {
+            "name" : "Yummy Memory",
+            "effect" : "**[Meal Time!!]** Increases DMG by 50%, and makes the target unable to recover Mana for `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Rampaging Beast's Claw",
+            "effect" : "**[I'll Slice You Up!]** Reduces Cooldown by 30% and adds `plhdr1%` M.DEF reduction.",
+            "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+        },
+        "3" : {
+            "name" : "Soul of a Giant Demon",
+            "effect" : "**[I'll rip you to pieces!!]** Gain immunity to CC during skill activation and upon every use, DMG is increased by `plhdr1%`. This effect is stacked max 10 times.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        },
+        "4" : {
+            "name" : "Symbol of Gluttony",
+            "effect" : "**[Yummy Souls!]** Upon gaining a Soul, increases Mana Recovery by `plhdr1`. Each soul stacks grant 70 CC ACC.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        }
+    },
+    "43" : {
+        "1" : {
+            "name" : "Weight of Fierce Attack",
+            "effect" : "**[Vital Strike]** Increases DMG by 50%, and for 10 sec, reduces the target's P.Block chance by `plhdr1`.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Fancy Tea Set",
+            "effect" : "**[Coordination]** Increases ATK Boost by `plhdr1%` and reduces Cooldown of the Hero with the highest ATK by 30%.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Magical Stone of Gravity",
+            "effect" : "**[Turbulent Dance]** DMG is increased by `plhdr1%` and target is inflicted by Stun for 3 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Beginning of Turbulence",
+            "effect" : "**[Weapon Mastery]** Increases ATK boost by 50% and All DEF for self by `plhdr1%`.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "44" : {
+        "1" : {
+            "name" : "Talisman of Concentration",
+            "effect" : "**[Focus Shot!]** Increases ATK Spd by 800 for the skill's duration, and increases P.DMG target receives by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Giant Arrow of Sudden Death",
+            "effect" : "**[Wipeout!]** Increases DMG by `plhdr1%` and reduces Cooldown by 12% upon a Crit Hit.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Dragon Steak",
+            "effect" : "**[No Holding Back!]** Reduces Mana Cost by 1 and increases DMG to Dragons by `plhdr1%` for the skill's duration.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Blazing Heart of Giant",
+            "effect" : "**[Dragon Slayer]** Increases ATK boost by 50%. All allies deal `plhdr1%` increased DMG to Dragons.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        }
+    },
+    "45" : {
+        "1" : {
+            "name" : "Sandstorm Arrow",
+            "effect" : "**[Judgment of the Desert]** Increases DMG by `plhdr1%` upon every use. There is a 30% chance that the hit enemy is inflicted with the Mark of Desert. DMG increase effect can be stacked up to max 20 times.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        },
+        "2" : {
+            "name" : "Sand of Mirage",
+            "effect" : "**[Blessing of the Sand Spirit]** Dispels negative effects from self, and recovers `plhdr1` Mana every sec while the shield is active.",
+            "plhdr1" : {"0" : "80", "1" : "100", "2" : "120", "3" : "140", "4" : "170", "5" : "200"}
+        },
+        "3" : {
+            "name" : "Soul of Oasis",
+            "effect" : "**[Doom of the Desert]** Skill cooldown is decreased by 30% and effect activation chance is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "8", "1" : "9.6", "2" : "11.5", "3" : "13.8", "4" : "16.5", "5" : "20"}
+        },
+        "4" : {
+            "name" : "Black Cat, Hoabis",
+            "effect" : "**[Calling of the Guardian]** Upon a Critical Hit, stuns the target for 2 sec and increases P.DMG it takes by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "46" : {
+        "1" : {
+            "name" : "Whisper of Night Sky",
+            "effect" : "**[Binding Karma]** Increases DMG by `plhdr1%` and grants immunity to CC for the duration of Skill.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Foreseeing Eyes",
+            "effect" : "**[Starlight Sewing]** Increases shield amount by 50%, and takes `plhdr1%` reduced P.DMG while shield is active.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Beyond the Mirror",
+            "effect" : "**[Circle of Fate]** Increases DMG by 50% and increases M.DMG the target takes by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Drops of Heaven",
+            "effect" : "**[Blessing of Truth]** Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by `plhdr1%`",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "47" : {
+        "1" : {
+            "name" : "Classified Resistance Document",
+            "effect" : "**[Release! Ultrasonic Wave!]** Rehartna becomes immune to CC while in use. Each hit reduces enemy's Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "140", "1" : "170", "2" : "210", "3" : "250", "4" : "300", "5" : "360"}
+        },
+        "2" : {
+            "name" : "Ultrasound Wave Generator",
+            "effect" : "**[Crystal Clear, Matimaruma!]** Increases Crit Resistance of allies within range by `plhdr1` and recovers their Mana by 150 every sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Medley Sheet",
+            "effect" : "**[You've Never Seen a Weapon Like This!]** Reduces Cooldown of all Skills by an additional `plhdr1` sec, and grants immunity to CC to the target for 5 sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "4" : {
+            "name" : "Dragon Drawing",
+            "effect" : "[Battle March Melody] Max number of stacks increases to 6 times and each stack increases DMG dealt to Bosses by `plhdr1%`.",
+            "plhdr1" : {"0" : "3", "1" : "3.6", "2" : "4.3", "3" : "5.2", "4" : "6.2", "5" : "7.5"}
+        }
+    },
+    "48" : {
+        "1" : {
+            "name" : "Strange Card",
+            "effect" : "**[Card of Death - Carta]** Increases DMG by 50%, and upon killing an enemy, recovers Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "1000", "1" : "1200", "2" : "1400", "3" : "1700", "4" : "2100", "5" : "2500"}
+        },
+        "2" : {
+            "name" : "Elliciad's Heart",
+            "effect" : "**[Card of Love - Elliciad]** Dispels Negative Effects of the target and all skill cooldown are decreased by `plhdr1%`.",
+            "plhdr1" : {"0" : "6", "1" : "7.2", "2" : "8.6", "3" : "10.4", "4" : "12.5", "5" : "15"}
+        },
+        "3" : {
+            "name" : "Coin of Fortune",
+            "effect" : "**[Card of Fortune - Vellekia]** Mana cost is reduced by 1 and DMG is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Fate Tying Thread",
+            "effect" : "**[Pathfinder of Fate]** Upon acquiring a card, increases DMG to Non-Hero enemies by `plhdr1%` and takes 20% reduced DMG for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "49" : {
+        "1" : {
+            "name" : "Tear of Venom",
+            "effect" : "**[Tears of Mr. Python!]** Gains Immunity to CC for the skill's duration, and increases the skill duration by `plhdr1` sec.",
+            "plhdr1" : {"0" : "0.8", "1" : "1", "2" : "1.2", "3" : "1.4", "4" : "1.7", "5" : "2"}
+        },
+        "2" : {
+            "name" : "Basilisk's Poisonous Fang",
+            "effect" : "**[Screechy Grass Extract!]** Skill cooldown is decreased by 30% and deals `plhdr1%` of ATK as additional P.DMG per each stacked **[Tickle Tickle Potion!]** of target.",
+            "plhdr1" : {"0" : "3", "1" : "3.6", "2" : "4.3", "3" : "5.2", "4" : "6.2", "5" : "7.5"}
+        },
+        "3" : {
+            "name" : "Sparkling Potion",
+            "effect" : "**[More! Stronger!]** Attacks additional 1 target and ATK Spd is increased by `plhdr1` for the duration.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "4" : {
+            "name" : "Laughter of Death",
+            "effect" : "**[Tickle Tickle Potion!]** Increases DMG by `plhdr1%`. Hit enemies have their P.Crit Resistance reduced by 250.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "50" : {
+        "1" : {
+            "name" : "Light of the Dawn",
+            "effect" : "**[Sword of the Sun]** Dispels all positive effects from enemies within range, and recovers own Mana by `plhdr1` upon hit.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Bracelet of the Sun",
+            "effect" : "**[Blessing of the Sun]** Reduces Mana Cost by 1 and target takes `plhdr1%` decreased P.DMG for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Guardian's Trumpet",
+            "effect" : "**[Judgment of the Sun]** Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Will of Light",
+            "effect" : "**[Curse of the Sun]** Increases the duration of Blind by 1 sec. Upon activation, targets take `plhdr1%` increased M.DMG for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "51" : {
+        "1" : {
+            "name" : "Teeth-mark Bullet",
+            "effect" : "**[Target will be Eliminated.]** Reduces Cooldown by 3 sec, and upon every hit, reduces the target's Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Cold Barrage",
+            "effect" : "**[Struggle is Meaningless.]** Reduces Mana Cost by 1 and has a `plhdr1%` chance to freeze target for 3 sec upon every strike.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Pendant of Memories",
+            "effect" : "**[Even Gods shall Die.]** Gains immunity to CC during skill activation and DMG is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Carousel Music Box",
+            "effect" : "**[Hunting Preparation]** Increases ATK boost by `plhdr1%`. Hunting Dog's Fang Mark becomes irremovable.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "52" : {
+        "1" : {
+            "name" : "Liberation of Curses",
+            "effect" : "**[Curse of Petrification]** Increases the number of targets by 1, and for 10 sec, reduces the target's M.Dodge by `plhdr1` for the duration of skill.",
+            "plhdr1" : {"0" : "120", "1" : "140", "2" : "170", "3" : "210", "4" : "250", "5" : "300"}
+        },
+        "2" : {
+            "name" : "Ancient Demon's Heart",
+            "effect" : "**[Curse of Time]** Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "The Jar of Curses",
+            "effect" : "**[Curse of Pain]** DMG is increased by `plhdr1%` and gains a stack of **[The Vessel of Curses]** upon killing an enemy.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Primal Curse",
+            "effect" : "**[The Vessel of Curses]** Upon gaining the Vessel of Curses, self's Cooldown of all skills is reduced by `plhdr1%` and All DEF is increased by 50% for 5 sec.",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        }
+    },
+    "53" : {
+        "1" : {
+            "name" : "Tarot Card of the Moon",
+            "effect" : "**[G-go Away!]** Increases DMG by 50% and reduces hit enemies' Heal Rate by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Fairy's Scent",
+            "effect" : "**[Bear Up...!]** Increases Heal Rate by 50% and Crit DMG by `plhdr1%`.\n**[You Scare Me!]** Increases DMG by 50% and reduces target's M.DEF by `plhdr2%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+            "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Blessed Protection",
+            "effect" : "**[Leave Me Alone...!]** Skill duration is increased by 1 sec and each hit increases M.DMG the target receives by `plhdr1%`",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "4" : {
+            "name" : "Tear of Soul",
+            "effect" : "**[Together Forever...]** Increases ATK boost by 50%. Allies under Soul Link have their Heal Rate increased by `plhdr1%`",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"}
+        }
+    },
+    "54" : {
+        "1" : {
+            "name" : "Whetstone of Demon",
+            "effect" : "**[Mysterious Sword - Falling Petals]** Increases DMG by 50%, and upon Critical Hit, recovers Mana by `plhdr1`.\n**[Mysterious Sword - Blossom]** Increases DMG by 50%, and upon Critical Hit, reduces Cooldown of **[Mysterious Sword - Falling Petals]** by `plhdr2` sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+            "plhdr2" : {"0" : "0.8", "1" : "1", "2" : "1.2", "3" : "1.4", "4" : "1.7", "5" : "2"}
+        },
+        "2" : {
+            "name" : "Ring of Abyss",
+            "effect" : "**[Blood Scattering Blade]** Increases DMG by 50% and reduces M.Block of affected enemies by `plhdr1`.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "3" : {
+            "name" : "Enlightening Candlelight",
+            "effect" : "**[Red Moon Blade]** Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for `plhdr1` time.",
+            "plhdr1" : {"0" : "4", "1" : "5", "2" : "6", "3" : "7", "4" : "9", "5" : "10"}
+        },
+        "4" : {
+            "name" : "Demonic Eight Trigrams",
+            "effect" : "**[Cold-Blooded Witch]** Increases ATK boost by 50% and the max number of stacks for Crit DMG boost by `plhdr1`.",
+            "plhdr1" : {"0" : "2", "1" : "3", "2" : "4", "3" : "6", "4" : "8", "5" : "10"}
+        }
+    },
+    "55" : {
+        "1" : {
+            "name" : "Fang of Thirst",
+            "effect" : "**[Sweet Blood]** Reduces Mana Cost by 1 and increases P.DMG the hit enemy takes by `plhdr1%`. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Wine of Shivers",
+            "effect" : "**[Soaking Blood]** Increases DMG of **[Soaking Blood]** by 50% and reduces Cooldown of **[Soaking Blood]** by `plhdr1%`.",
+            "plhdr1" : {"0" : "5", "1" : "6", "2" : "7", "3" : "8", "4" : "9", "5" : "10"}
+        },
+        "3" : {
+            "name" : "Lipstick of Shame",
+            "effect" : "**[Blood Liberation]** Increases DMG of **[Blood Liberation]** by `plhdr1%` and gains immunity to CC for the duration of **[Blood Liberation]**.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Moonlight Piano",
+            "effect" : "**[Life Drinker]** Increases ATK boost and Max HP boost by `plhdr1%`. **[Life Drinker]** becomes irremovable.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "56" : {
+        "1" : {
+            "name" : "Whisper of Sea",
+            "effect" : "**[Aqua Tempest]** Reduces Cooldown by 2.5 sec and enemies inflicted by Aqua Tempest take `plhdr1%` increased P.DMG.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Heart of Flow",
+            "effect" : "**[Everlasting Oasis]** The effect cannot be dispelled, and Crit DMG is increased by `plhdr1%` during skill duration.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Bottomless Kettle of Elementals",
+            "effect" : "**[Celestial Cataract]** Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by `plhdr1%` for 7 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "200", "5" : "250"}
+        },
+        "4" : {
+            "name" : "Key of Purity",
+            "effect" : "**[Aqua Purification]** Every 10 sec, increases own Crit DMG by 80% and Mana Recovery/Sec by `plhdr1%` for 5 sec.",
+            "plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "63", "5" : "75"}
+        }
+    },
+    "57" : {
+        "1" : {
+            "name" : "Anklet of Oasis",
+            "effect" : "**[Whisper of Sand]** Makes the effect irremovable, and recovers Mana by `plhdr1` upon Critical Hit.",
+            "plhdr1" : {"0" : "140", "1" : "170", "2" : "210", "3" : "250", "4" : "300", "5" : "360"}
+        },
+        "2" : {
+            "name" : "Halidom of Trovatia",
+            "effect" : "**[Enchanting Flow]** After movement, absorbs DMG equal to `plhdr1%` of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of **[Alluring Ambush]** is decreased by 1.",
+            "plhdr1" : {"0" : "160", "1" : "190", "2" : "230", "3" : "270", "4" : "330", "5" : "400"}
+        },
+        "3" : {
+            "name" : "Veil of Charm",
+            "effect" : "**[Dance of the Desert]** Skill cooldown is decreased by 30% and Penetration is increased by `plhdr1` during skill activation.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "4" : {
+            "name" : "Earrings of God Dragon",
+            "effect" : "**[Blessing of Oasis]** Increases DEF boost by 50%. Upon gaining **[Blessing of Oasis]**, increases ATK Spd by `plhdr1` for 5 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        }
+    },
+    "58" : {
+        "1" : {
+            "name" : "Book of Blessings",
+            "effect" : "**[Path of Blessings]** Reduces Mana Cost by 1 and Cooldown by `plhdr1%`.",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        },
+        "2" : {
+            "name" : "Dice of Remembrance",
+            "effect" : "**[Zone of Faith]** Reduces Mana Cost by 1, and reduces Mana of enemies within range by `plhdr1` per sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Guidance of Morning Star",
+            "effect" : "**[Stigmata]** The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by `plhdr1%`",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+        },
+        "4" : {
+            "name" : "Sword of Sacrifice",
+            "effect" : "**[Holy Sacrifice]** Increases DEF boost by 50%. Targets have their ATK increased by `plhdr1%` for 5 sec.",
+            "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+        }
+    },
+    "59" : {
+        "1" : {
+            "name" : "Sword of Nosenhill",
+            "effect" : "**[Light of Annihilation]** Increases DMG by `plhdr1%` and resets Cooldown upon killing an enemy.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Certificate of Inquisitor",
+            "effect" : "**[Enemy Blockade]** Reduces Cooldown by 5 sec, and for 10 sec, increases M.DMG target receives by `plhdr1%`.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Pride of Velchia",
+            "effect" : "**[Green Zone]** Reduces Cooldown by 30% and increases Heal Rate Reduction Effect of Green Zone by an additional `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Prism of Primary Colors",
+            "effect" : "**[Technomagic of the Empire]** Upon gaining the Light, increases own ATK by 3% and DMG to Non-Hero enemies by `plhdr1%` for 20 sec. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "1.2", "1" : "1.4", "2" : "1.7", "3" : "2.1", "4" : "2.5", "5" : "3"}
+        }
+    },
+    "60" : {
+        "1" : {
+            "name" : "Cartridge of Black Lightning",
+            "effect" : "**[Black Lightning Claw]** Recovers Mana by 100 upon each hit, and increases own P.DEF and M.DEF by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Memories of the Blue God Dragon",
+            "effect" : "**[Obsidian Roar]** Increases DEF Boost of allies by `plhdr1%` and dispels positive effects from all enemies upon using **[Obsidian Roar]**.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Rage Vortex",
+            "effect" : "**[Breath of Destruction]** Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by `plhdr1` sec.",
+            "plhdr1" : {"0" : "3", "1" : "4", "2" : "5", "3" : "6", "4" : "7", "5" : "8"}
+        },
+        "4" : {
+            "name" : "Ashen Nova",
+            "effect" : "**[Black Dragon Hide]** Every 10 sec, recovers 1 orb of Mana and increases All Block of all allies by `plhdr1` for 5 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        }
+    },
+    "61" : {
+        "1" : {
+            "name" : "Gauntlet of Wave",
+            "effect" : "**[Halt!]** Increases DMG by `plhdr1%` and for 10 sec, target receives 25% increased P.DMG.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Wings of Justice",
+            "effect" : "**[Justice Served!]** Increases DMG by `plhdr1%` and reduces Cooldown of all allies by 10%.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Pride of Orvelia",
+            "effect" : "**[Sword of Honor!!]** DMG is increased by `plhdr1%` and each ATK inflicts Stun on enemy for 3 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Heart of Silver",
+            "effect" : "**[Goddess of War]** Activation chance changes to 20%. Upon activation, increases own ATK Spd by `plhdr1` for 5 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        }
+    },
+    "62" : {
+        "1" : {
+            "name" : "Jewel of Amplification",
+            "effect" : "**[Lightning Strike!]** Extends the duration of electric field by 1 sec, and upon each hit, increases own ATK Spd by `plhdr1` for 5 sec. This effect can be stacked up to max 30 times.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Lightning Tent",
+            "effect" : "**[Power of Lightning!]** Changes the effect irremovable and increases the chance to trigger an additional damage by `plhdr1%` additionally.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Heart of Baikal",
+            "effect" : "**[Electric Explosion!]** When attacking enemy inflicted by Shock, the enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by `plhdr1%` for 5 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Lightning Gloves",
+            "effect" : "**[Shock]** have `plhdr1%` chance to inflict 1 stack of Electricity to the enemy. This effect also applies to enemies under **[Shock]**.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "63" : {
+        "1" : {
+            "name" : "Dignity of Queen",
+            "effect" : "**[Pillar of Light]** Reduces Mana Cost by 1 and increases M.DMG target receives by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Queen's Pride",
+            "effect" : "**[Critical Intensity]** Gains Immunity to CC and increases DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Crown of Brilliance",
+            "effect" : "**[Light's Judgment]** DMG is increased by `plhdr1%` and upon killing an enemy, recovers 700 mana.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Mirror of Blessings",
+            "effect" : "**[Blessings of Light]** Increases DMG by 50%, and changes DMG boost to Non-Hero enemies to 8%."
+        }
+    },
+    "64" : {
+        "1" : {
+            "name" : "Proof of Endeavor",
+            "effect" : "**[Target Lock On]** Increases DMG by `plhdr1%` and reduces the target's M.Crit Resistance by 500 for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Gemini Ring of Instant Teleportation",
+            "effect" : "**[Restrain and Protect]** Reduces Mana Cost by 1 and upon Crit hit recovers `plhdr1` Mana.",
+            "plhdr1" : {"0" : "160", "1" : "190", "2" : "230", "3" : "270", "4" : "330", "5" : "400"}
+        },
+        "3" : {
+            "name" : "Magic Powder of Lightning",
+            "effect" : "**[Assassination]** DMG is increased by 50% and upon Crit Hit increases own ATK by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Birth of Miracle",
+            "effect" : "**[Target Eliminated]** Increases ATK boost by 50%. Every 5 sec, stuns enemies under Target Lock On for `plhdr1` sec.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        }
+    },
+    "65" : {
+        "1" : {
+            "name" : "Flower of Life",
+            "effect" : "**[Green Nature's Melody]** Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by `plhdr1`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "2" : {
+            "name" : "Windy Flower",
+            "effect" : "**[Blue Wind's Song]** Increases ACC by 250 for 8 sec and recovers `plhdr1` MP every time an ally uses a skill.",
+            "plhdr1" : {"0" : "160", "1" : "190", "2" : "230", "3" : "270", "4" : "330", "5" : "400"}
+        },
+        "3" : {
+            "name" : "Fairy's Crown",
+            "effect" : "**[Dance of Red Passion]** Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by `plhdr1%` for the duration of skill.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Dream of Mira",
+            "effect" : "**[Trance]** Upon gaining **[Trance]**, increases own ATK by 20% and ATK Spd by `plhdr1` for 5 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        }
+    },
+    "66" : {
+        "1" : {
+            "name" : "Optical Lens - MF002",
+            "effect" : "**[Anti-personnel Laser]** Increases DMG by `plhdr1%` and for 10 sec, increases M.DMG target receives by 25%.\n**[Siege Laser]** Increases DMG by `plhdr2%` and ignores target's P.Block and M.Block.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+            "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Recording Device KARA-00XX",
+            "effect" : "**[Wide-area Cannon]** Increases DMG by 50% and reduces ATK Spd of the target by `plhdr1` for 10 sec.\n**[Focused Fire]** Reduces Cooldown by `plhdr2%` upon a Crit Hit and recovers 150 Mana.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"},
+            "plhdr2" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        },
+        "3" : {
+            "name" : "Ancient Power Source",
+            "effect" : "**[Release Siege Weapon]** Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to `plhdr1` times.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Drawing of Ancient Research",
+            "effect" : "**[Essence of Technomagic]** Increases ATK and DEF boost by 50%. Crit DMG of self is increased by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "67" : {
+        "1" : {
+            "name" : "Flower of Jungle",
+            "effect" : "**[Scar of Barbarism]** Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by `plhdr1` for 10 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Gift of Hunt",
+            "effect" : "**[On the Hunt]** Increases DMG by 50% and P.DMG increase inflicted by **[Hunt Mark]** and **[Enhanced Hunt Mark]** by an additional `plhdr1%`.",
+            "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+        },
+        "3" : {
+            "name" : "Bone Mask of Spell",
+            "effect" : "**[Demonic Eyes of Petrification]** Pulls enemies to the front upon casting, and reduces Mana of enemies by `plhdr1` upon hit.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "4" : {
+            "name" : "Blood Stabilizer",
+            "effect" : "**[Demonic Blood]** At the beginning of every battle, gains 1 stack of **[Demonic Blood]**. 4 stacks of **[Demonic Blood]** will grant immunity to CC for `plhdr1` sec.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "68" : {
+        "1" : {
+            "name" : "Mumbo Jumbo Runic Cube",
+            "effect" : "**[This is My Game]** Increases DMG by `plhdr1%` and the number of hits by 1.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Indispensable Chess Piece",
+            "effect" : "**[My Turn]** The effect of **[My Turn]** becomes irremovable and additionally grants `plhdr1` ATK Spd per stack to the ally with the highest ATK.",
+            "plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "63", "5" : "75"}
+        },
+        "3" : {
+            "name" : "Old Fishing Rod",
+            "effect" : "**[Shall I Try My Luck?]** Reduces Mana Cost by 1 and increases M.DMG target receives by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Shady Chip",
+            "effect" : "**[This Is Not a Trick]** Increases ATK and DEF boost by 50%. ATK Spd of self is increased by `plhdr1` per stack.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "69" : {
+        "1" : {
+            "name" : "First Step of Hero",
+            "effect" : "**[Outta the Way!]** Reduces Mana Cost by 1 and increases P.DMG the target takes by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Childhood Memory",
+            "effect" : "**[Infinite Potential]** Dispels negative effects from self and increases DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Moment of Respite",
+            "effect" : "**[WA-TAAAAAH!!!]** Increases own DMG to Boss by `plhdr1%` per every Skill use. The effect can be stacked up to the max 10 times. Reduces Mana Cost of **[Special Move, Meteor Kick!!!]** by 1.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        },
+        "4" : {
+            "name" : "Heart of Justice",
+            "effect" : "**[Inborn Talent]** At the beginning of each battle, deals `plhdr1%` increased DMG to Non-Hero enemmies and takes 25% reduced DMG for 20 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        }
+    },
+    "70" : {
+        "1" : {
+            "name" : "Lotus of Crimson Crystal",
+            "effect" : "**[Slash, Blade of Judgment!]** Increases DMG by `plhdr1%` and reduces Mana Cost by 1.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Remnant of Hobby",
+            "effect" : "**[Disperse, Crystal Haze!]** Increases ATK Spd by an additional `plhdr1` and the duration of **[Arcane Crystal Awakening]** by 7 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Reminiscence of Escape",
+            "effect" : "**[Bloom, Crimson Flower!]** Decreases Cooldown by 30%, and gaining 1 stack of **[Arcane Crystal Energy]** has a `plhdr1%` chance to add 3 additional stacks.",
+            "plhdr1" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "84", "5" : "100"}
+        },
+        "4" : {
+            "name" : "Moment of Peace",
+            "effect" : "**[End to Evil Deeds!]** Increases Crit Chance by an additional 250 and the effect of the duration of CC increases chances to `plhdr1%`.",
+            "plhdr1" : {"0" : "30", "1" : "32", "2" : "34", "3" : "37", "4" : "41", "5" : "45"}
+        }
+    },
+    "71" : {
+        "1" : {
+            "name" : "Guide of Sin",
+            "effect" : "**[I'll Break You!]** Gains immunity to CC for the skill's duration, and recovers Mana by `plhdr1` upon hit.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "2" : {
+            "name" : "Handkerchief of Loyalty",
+            "effect" : "**[Remove Limit]** For the skill's duration, deals P.DMG by `plhdr1%` of ATK every second to nearby enemies and increases Recovery by 30%.",
+            "plhdr1" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "84", "5" : "100"}
+        },
+        "3" : {
+            "name" : "Unrelenting Pauldron",
+            "effect" : "**[Burn, Spear of Fury]** Reduces Mana Cost by 1 and increases DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Biometric Sensor - Type. 0",
+            "effect" : "**[Remember This in Hell]** Increases the duration of resurrection by 1 sec, and gains immunity to CC for `plhdr1` sec upon resurrection.",
+            "plhdr1" : {"0" : "1", "1" : "1.5", "2" : "2", "3" : "2.5", "4" : "3", "5" : "3.5"}
+        }
+    },
+    "72" : {
+        "1" : {
+            "name" : "Lakeside Banquet",
+            "effect" : "**[Judgment Upon Them!]** Increases DMG by 50% and heals additional HP equal to `plhdr1%` of the healed ally's Max HP.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Traditional Bracelet",
+            "effect" : "**[Grant Me Strength!]** Decreases Cooldown by 5 sec, and increases Heal Rate & Mana Recovery by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Dagger of Sorcery",
+            "effect" : "**[May Their Agony End!]** Increases DMG by `plhdr1%`. If this Skill kills an enemy, it will cast once more.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Tome of the Dragon",
+            "effect" : "**[Might of the Ancestors!]** Increases shield amount by `plhdr1%` and applies shield to all allies.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "73" : {
+        "1" : {
+            "name" : "Faded Sword",
+            "effect" : "**[Circle of Futility]** Reduces the hit targets' Mana by `plhdr1` and increases M.DMG they take by 25% for 5 sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "2" : {
+            "name" : "Medal of Light",
+            "effect" : "**[Battle Initiation]** Consumes `plhdr1%` of current HP upon use, but the effect will become irremovable.",
+            "plhdr1" : {"0" : "50", "1" : "42", "2" : "35", "3" : "29", "4" : "24", "5" : "20"}
+        },
+        "3" : {
+            "name" : "Mercenary's Goblet",
+            "effect" : "**[Destroyer]** Increases DMG by `plhdr1%` and each hit has a 20% chance to stun the enemy for 0.5 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Unsent Letter",
+            "effect" : "**[Breakdown]** Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by `plhdr1`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "74" : {
+        "1" : {
+            "name" : "Alpha Leader Badge",
+            "effect" : "**[That Is it]** Increases DMG by 50% and reduces Cooldown by `plhdr1%` upon a Critical Hit.",
+            "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "2" : {
+            "name" : "Praise of Dandelion",
+            "effect" : "**[I Will Not Stay My Hand]** Reduces Cooldown by 4.5 sec and enemy Heal Rate by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "28", "3" : "34", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Ballas Ruby",
+            "effect" : "**[Time for Counterattack]** Increases the amount of ATK and DEF Boost by 50% and causes the hit target to take `plhdr1%` increased P.DMG for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Golden Glory",
+            "effect" : "**[Pride of Imperial Knights]** Increases ATK Boost by 50%. At the beginning of each battle, increases Crit DMG of self and an ally with the highest ATK besides self by `plhdr1%` for 20 sec, and increases DMG to Non-Hero enemies by `plhdr2%`.",
+            "plhdr1" : {"0" : "30", "1" : "36", "2" : "42", "3" : "50", "4" : "63", "5" : "75"},
+            "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"}
+        }
+    },
+    "75" : {
+        "1" : {
+            "name" : "Healthy Potion Set",
+            "effect" : "**[Take Anything!]** Reduces Mana Cost by 1, and increases the target's M.DEF by `plhdr1%` for 20 sec. This effect can be stacked up to max 8 times.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.4", "4" : "4.2", "5" : "5"}
+        },
+        "2" : {
+            "name" : "Sweet Piece of Cake",
+            "effect" : "**[Cheer Up!]** Increases Heal Rate by `plhdr1%` and the chance of double Heal Rate by 20% additionally.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "34", "4" : "42", "5" : "50"}
+        },
+        "3" : {
+            "name" : "Crystal Ball from Unknown Origin",
+            "effect" : "**[Not for sale!]** DMG is increased by `plhdr1%` and attacks the enemy 1 more time.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "34", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Dangerous Snack Set",
+            "effect" : "**[Take This!]** Changes the target to all enemies. Upon activation, all allies recover `plhdr1` Mana.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "340", "4" : "420", "5" : "500"}
+        }
+    },
+    "76" : {
+        "1" : {
+            "name" : "Intolerable Feather",
+            "effect" : "**[Quick Strikes]** Increases DMG by 50%, and makes the target unable to recover Mana for `plhdr1` sec.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        },
+        "2" : {
+            "name" : "Silvervine Box",
+            "effect" : "**[Advent of the War God]** For the skill's duration, recovers `plhdr1` MP every second and stacks 1 **[This will hurt!]** upon inflicting additional P.DMG.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "3" : {
+            "name" : "Champion's Laurel Wreath",
+            "effect" : "**[Ultimate Punch!]** Skill cooldown is reduced by 30% and per each activation DMG is increased by `plhdr1%`. This effect can be stacked max 10 times.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        },
+        "4" : {
+            "name" : "Elastic Bandage of Fighting Spirit",
+            "effect" : "**[This will hurt!]** Increases DMG by 50%. Upon activation, a target takes `plhdr1%` increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        }
+    },
+    "77" : {
+        "1" : {
+            "name" : "Guild Code of Conduct",
+            "effect" : "**[This Will Hurt A Little!]** increases DMG by 50%, and increases DMG to Bosses by `plhdr1%` for 30 sec upon Critical Hit. This effect stacks up to max 10 times.",
+            "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+        },
+        "2" : {
+            "name" : "Pen Point of Firm Will",
+            "effect" : "**[Let Me Help You]** Reduces Mana Cost by 1 and increases skill duration by `plhdr1` sec.",
+            "plhdr1" : {"0" : "1.6", "1" : "1.9", "2" : "2.3", "3" : "2.7", "4" : "3.3", "5" : "4"}
+        },
+        "3" : {
+            "name" : "Seal of Guild Manager",
+            "effect" : "**[Get out of my sight!]** DMG is increased by `plhdr1%` and per each enemy hit, cooldown is reduced by 10%",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "34", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Guild Accounts Report",
+            "effect" : "**[Top Financier's Knowledge]** Increases ATK boost by 50%. Upon gaining **[Top Financier's Knowledge]**, increases Crit DMG of all allies by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "34", "4" : "42", "5" : "50"}
+        }
+    },
+    "78" : {
+        "1" : {
+            "name" : "Basic Combat Techniques of Orvelian Knights",
+            "effect" : "**[Cut Ground]** For 10 sec, reduces the target's P.Block by 500 and CC Resist by `plhdr1`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+        },
+        "2" : {
+            "name" : "Wooden Doll Miniature",
+            "effect" : "**[Shrouding Creed]** Reduces Mana Cost by 1 and recovers target's Mana by `plhdr1`.",
+            "plhdr1" : {"0" : "400", "1" : "480", "2" : "580", "3" : "700", "4" : "840", "5" : "1000"}
+        },
+        "3" : {
+            "name" : "Sea of Invocation",
+            "effect" : "**[Knight's Creed]** Reduces Cooldown by 30%, and increases P.Weakness of the target by `plhdr1%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "4" : {
+            "name" : "Father's Shield",
+            "effect" : "**[The Last Gatekeeper]** Increases own M.Block by `plhdr1`. Upon block, the number of Endurance Stacks increases by 1.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "340", "4" : "420", "5" : "500"}
+        }
+    },
+    "79" : {
+        "1" : {
+            "name" : "Colorful Ladle",
+            "effect" : "**[Best Dish]** Increases Heal Rate by `plhdr1%` and gains 1 stack of **[Excellent Ingredient]** after use.\n[Juno's Spicy Special] Increases DMG by `plhdr2%` and reduces the target's Crit Chance by 250 for 10 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "34", "4" : "42", "5" : "50"},
+            "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "34", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "The Jar of Happiness",
+            "effect" : "**[Power-up]** Increases Mana Recovery Rate by 50% and reduces Cooldown of the target's active skills by `plhdr1%`.\n**[Help Yourself, Then Get Lost!]** Increases Mana Reduction by 50% and stuns the target for `plhdr2` sec.",
+            "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"},
+            "plhdr2" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+        },
+        "3" : {
+            "name" : "Suspicious Seasoning Set",
+            "effect" : "**[Cook from Hell]** Applies healing effects to all allies and reduces Cooldown of **[Cook from Hell]** by `plhdr1` sec.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "200", "5" : "250"}
+        },
+        "4" : {
+            "name" : "Apron of Honor",
+            "effect" : "**[Open for Business!]** Increases DEF boost by 50%. While under **[Cook from Hell]**, reduces ATK Spd of all enemies by 100."
+        }
+    },
+    "80" : {
+        "1" : {
+            "name" : "Special Boots of Stockade",
+            "effect" : "**[Mace of Rehabilitation]** Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by `plhdr1%` in Disarmament state.",
+            "plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"}
+        },
+        "2" : {
+            "name" : "Pendant of War God",
+            "effect" : "**[Merciless Gale]** Increases DMG by 50% and reduces Cooldown by `plhdr1%` for each enemy hit.",
+            "plhdr1" : {"0" : "1.6", "1" : "1.9", "2" : "2.3", "3" : "2.7", "4" : "3.3", "5" : "4"}
+        },
+        "3" : {
+            "name" : "Merciless Skull Knuckle",
+            "effect" : "**[Last Execution]** Reduces Cooldown by 30% and increases own DMG to Boss by `plhdr1%` per use. This effect can be stacked up to max 10 times.",
+            "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+        },
+        "4" : {
+            "name" : "Ominous Manicure",
+            "effect" : "**[Massacre Instinct]** **[Cruel Madness]** becomes irremovable. Upon activation, reduces Cooldown of all skills by `plhdr1%` immediately.",
+            "plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"}
+        }
+    },
+    "81" : {
+        "1" : {
+            "name" : "Bracelet of Elidora",
+            "effect" : "**[This Will Hurt!]** Increases Heal Rate of allies within range by `plhdr1%` for 4 sec and reduces Heal Rate of hit enemies by 50% for 4 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "2" : {
+            "name" : "Crystal of the Forest",
+            "effect" : "**[On Guard!]** Increases DEF Boost by 50%, and increases Crit Chance by `plhdr1` for 5 sec.",
+            "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+        },
+        "3" : {
+            "name" : "Wind Elemental's Nest",
+            "effect" : "**[Hya! Kya! Take This!]** Increases ACC by 750 and CC ACC by `plhdr1` for the duration of skill.",
+            "plhdr1" : {"0" : "300", "1" : "360", "2" : "430", "3" : "520", "4" : "630", "5" : "750"}
+        },
+        "4" : {
+            "name" : "Feather of Wind",
+            "effect" : "**[Let Us Challenge Together!]** P.DEF Boost is applied to all allies and adds `plhdr1%` P.DMG Reduction Effect for the duration of Skill.",
+            "plhdr1" : {"0" : "6", "1" : "7", "2" : "8", "3" : "10", "4" : "12", "5" : "15"}
+        }
+    },
+    "82" : {
+        "1" : {
+            "name" : "Worn Army Hat",
+            "effect" : "**[I See Through Your Every Move!]** Reduces Mana Cost by 1 and increases the duration of blind by `plhdr1` sec.",
+            "plhdr1" : {"0" : "0.8", "1" : "1", "2" : "1.2", "3" : "1.4", "4" : "1.7", "5" : "2"}
+        },
+        "2" : {
+            "name" : "The Playstarter",
+            "effect" : "**[Shoot You Full of Holes!]** Upon using this Skill, Hanus gains 20 Ammo. While Hanus is consuming Ammo to shoot a machine gun, Hanus' ATK is increased by `plhdr1%`. This effect can be stacked up to max 100 times.",
+            "plhdr1" : {"0" : "0.8", "1" : "1", "2" : "1.2", "3" : "1.4", "4" : "1.7", "5" : "2"}
+        },
+        "3" : {
+            "name" : "Mini Hanus",
+            "effect" : "**[Hide If You Can!]** Hanus gains immunity to CC for the duration of Skill, and reduces Heal Rate of the hit target by `plhdr1%` for 5 sec.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        },
+        "4" : {
+            "name" : "Medal of Honor",
+            "effect" : "**[I Shall Train You Hard!]** At the beginning of a Guild War battle, reduces Mana Cost of Hanus' Skill by 1, only for one Skill use. Also, increases all allies' ATK by `plhdr1%` and Crit DMG by `plhdr2%` for 10 sec.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+            "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    },
+    "83" : {
+        "1" : {
+            "name" : "Rune of the Flow",
+            "effect" : "**[Tremble!]** Increase All DMG Reduction effect of the Skill by an additional `plhdr1%`.\n**[Kneel.]** Reduces Mana Cost by 1.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "2" : {
+            "name" : "Eye of the God King",
+            "effect" : "**[Behold My Might]** Increases DMG by 50% and when Cain is in **[Tyrant]** form, increases DMG by `plhdr1%`.",
+            "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+        },
+        "3" : {
+            "name" : "Chest of Integrity",
+            "effect" : "**[Gaze Upon My Almighty Power!]** Increases ATK Boost by 50%.\n**[Now Die]** Increases P.DMG the target takes by `plhdr1%`.",
+            "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "200", "5" : "250"}
+        },
+        "4" : {
+            "name" : "Archive of Sekireinel",
+            "effect" : "**[King of the Desert]** Increases ATK Boost by 50%. If there are 3 or more stacks of **[King of the Desert]**, increases Heal Rate of all allies by `plhdr1%`.",
+            "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+        }
+    }
+}

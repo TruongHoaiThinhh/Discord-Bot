@@ -1,0 +1,571 @@
+{
+    "1" : {
+        "name" : "Kiếm Thánh - Aea",
+        "effect" : "Mỗi đòn tấn công có 35% cơ hội gây sát thương vật lý cho kẻ địch tương đương `plhdr1%` sức mạnh tấn công.",
+        "plhdr1" : {"0" : "160", "1" : "192", "2" : "230", "3" : "275", "4" : "331", "5" : "400"}
+    },
+    "2" : {
+        "name" : "Nhà chức trách của Chúa - Rosmerta",
+        "effect" : "Hồi máu tương đương `pldhr1%` chỉ số tấn công cho 4 đồng minh có HP thấp nhất mỗi 8 giây, tăng 300 tỉ lệ chí mạng và `pldhr2%` sát thương chí mạng cho đồng minh có chỉ số tấn công cao nhất trong 8 giây.",
+        "plhdr1" : {"0" : "80", "1" : "96", "2" : "115", "3" : "138", "4" : "165", "5" : "200"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "3" : {
+        "name" : "Ngọn lửa nguyên thủy - Flenos",
+        "effect" : "Kỹ năng đánh trúng sẽ gây thêm sát thương phép tương đương `plhdr1%` điểm tấn công trên mỗi lần cộng dồn Mồi Lửa mà kẻ địch dính phải.",
+        "plhdr1" : {"0" : "3", "1" : "3.6", "2" : "4.3", "3" : "5.2", "4" : "6.3", "5" : "7.5"}
+    },
+    "4" : {
+        "name" : "Hơi thở ma quái - Redeal",
+        "effect" : "Khi tấn công thường, cộng dồn 1 lần trạng thái xuất huyết với xác xuất `plhdr1%` gây thêm sát thương ngang `plhdr2%` lực tấn công.",
+        "plhdr1" : {"0" : "25", "1" : "28", "2" : "31", "3" : "34", "4" : "37", "5" : "40"},
+        "plhdr2" : {"0" : "50", "1" : "60", "2" : "72", "3" : "86", "4" : "103", "5" : "125"}
+    },
+    "5" : {
+        "name" : "Chim thánh - Numinu",
+        "effect" : "HP tối đa của bản thân tăng `pldhr1%` và khi tấn công thường sẽ gây thêm sát thương vật lý tương đương `pldhr2%` lực tấn công với xác xuất 15%, đồng thời đóng băng trong 2 giây.",
+        "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"},
+        "plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "6" : {
+        "name" : "Hài cốt rồng - Atein",
+        "effect" : "Mỗi lần nhận sát thương sẽ cộng dồn [Cơn Thịnh Nộ của Rồng]. Duy trì trong 10 giây và tăng `plhdr1%` lực phòng thủ và lực tấn công của bản thân. Hiệu ứng được cộng dồn tối đa 100 lần.",
+        "plhdr1" : {"0" : "0.8", "1" : "1", "2" : "1.2", "3" : "1.4", "4" : "1.7", "5" : "2"}
+    },
+    "7" : {
+        "name" : "Lakrak MK-1",
+        "effect" : "Tỷ lệ thành công ở thử nghiệm tăng `plhdr1%` và mỗi khi thử nghiệm thành công, sẽ tăng `plhdr2%` lực tấn công, `plhdr3%` tốc độ tấn công và `plhdr4%` sát thương gây lên kẻ địch không phải anh hùng. Hiệu ứng được cộng dồn tối đa 4 lần và không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "6", "1" : "7.2", "2" : "8.6", "3" : "10.5", "4" : "12.5", "5" : "15"},
+        "plhdr3" : {"0" : "60", "1" : "72", "2" : "86", "3" : "105", "4" : "125", "5" : "150"},
+	"plhdr4" : {"0" : "6", "1" : "7.2", "2" : "8.6", "3" : "10.5", "4" : "12.5", "5" : "15"}
+    },
+    "8" : {
+        "name" : "Làn gió xanh dương - Coventina",
+        "effect" : "Khi tấn công thường, gây sát thương phép tương đương `plhdr1%` lực tấn công lên 2 kẻ địch bất kỳ với xác xuất `plhdr2%`, đồng thời giảm `plhdr3` lực tấn công của chúng trong 10 giây. Nếu đối tượng ở trạng thái sốc điện thì làm choáng trong 2 giây.",
+        "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"},
+        "plhdr2" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"},
+	"plhdr3" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "210", "5" : "25"}
+    },
+    "9" : {
+        "name" : "Yêu Nữ - Guillotine",
+        "effect" : "Khi tấn công, gây thêm sát thương phép ngang mức `plhdr1%` lực tấn công với xác xuất 25%, tăng `plhdr2%` lực tấn công của bản thân. Hiệu quả tăng lực tấn công có thể cộng dồn tối đa 10 lần.",
+        "plhdr1" : {"0" : "80", "1" : "96", "2" : "115", "3" : "138", "4" : "165", "5" : "200"},
+        "plhdr2" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+    },
+    "10" : {
+        "name" : "Làn gió xanh lục - Notos",
+        "effect" : "Khi ra đòn chí mạng, tốc độ tấn công tăng `plhdr1%` trong 10 giây. Mỗi lần tấn công, bắn tên bổ sung và gây `plhdr2%` sát thương vật lý.",
+        "plhdr1" : {"0" : "200", "1" : "240", "2" : "280", "3" : "340", "4" : "410", "5" : "500"},
+        "plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+    },
+    "11" : {
+        "name" : "Sứ giả của Lea - Cocytus",
+        "effect" : "Khi có đòn chí mạng, giảm 50% tỷ lệ hồi máu của mục tiêu và tăng `plhdr1%` sát thương chí mạng của bản thân trong 10 giây. Hiệu ứng tăng sát thương chí mạng được cộng dồn tối đa 20 lần.",
+        "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+    },
+    "12" : {
+        "name" : "Vũ khí tối thượng - Leviathan",
+        "effect" : "Gây sát thương vật lý tương đương `plhdr1%` tấn công cho kẻ địch dính chiêu [Boooooom!] ở mức xác xuất 50% và mục tiêu nhận thêm `plhdr2%` sát thương vật lý trong 10 giây.",
+        "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "13" : {
+        "name" : "Chúc thư của cây thế giới - Roburu",
+        "effect" : "Gây sát thương phép tương đương `plhdr1%` lực tấn công lên những kẻ địch bị đầu độc mỗi 7 giây, làm giảm `plhdr2%` lực phòng thủ phép thuật trong 10 giây và tăng `plhdr3%` sát thương phép mà mục tiêu phải nhận.",
+        "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr3" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "14" : {
+        "name" : "Người giám hộ - Exian",
+        "effect" : "Mỗi khi sử dụng 3 lần kỹ năng, sẽ tăng `plhdr1%` điểm tấn công và phòng thủ vật lý cho tất cả đồng minh trong 10 giây. Nhân đôi mức hỗ trợ tấn công cho đồng minh có điểm tấn công cao nhất.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "15" : {
+        "name" : "Chiếc đèn của Chúa - Kurulati",
+        "effect" : "Mỗi 20 giây, giúp 1 đồng minh có lượng máu thấp nhất vào trạng thái tàng hình trong `plhdr1` giây. Đồng minh sẽ trở nên miễn nhiễm với bất kỳ sát thương vật lý nào, và HP sẽ không giảm xuống dưới 1%. Hồi điểm Mana tăng `plhdr2%` mỗi giây.",
+        "plhdr1" : {"0" : "5", "1" : "6", "2" : "7", "3" : "8", "4" : "9", "5" : "10"},
+        "plhdr2" : {"0" : "120", "1" : "144", "2" : "172", "3" : "207", "4" : "248", "5" : "300"}
+    },
+    "16" : {
+        "name" : "Nước mắt mặt trăng - Nerius",
+        "effect" : "Khi tấn công, gây sát thương phép ngang mức `plhdr1%` lực tấn công với xác xuất `plhdr2%`, và giảm 10% thời gian hồi chiêu tất cả kỹ năng.",
+        "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"}
+    },
+    "17" : {
+        "name" : "Sấm Sét - Livatis",
+        "effect" : "Mỗi khi trúng đòn chí mạng, tăng `plhdr1%` tốc độ tấn công và `plhdr2%` sát thương chí mạng trong 15 giây. Hiệu ứng có thể cộng dồn tối đa 5 lần.",
+        "plhdr1" : {"0" : "80", "1" : "90", "2" : "110", "3" : "130", "4" : "160", "5" : "200"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "28", "3" : "34", "4" : "41", "5" : "50"}
+    },
+    "18" : {
+        "name" : "Trái tim rồng - Andarta Andraste",
+        "effect" : "Mỗi `plhdr1` giây, gây sát thương phép ngang mức `plhdr2%` lực tấn công lên 2 đối thủ ngẫu nhiên và gây trạng thái sương giá. Đối thủ đang trong trạng thái sương giá sẽ bị đóng băng trong 5 giây.",
+        "plhdr1" : {"0" : "15", "1" : "14", "2" : "12.5", "3" : "11", "4" : "9.5", "5" : "8"},
+        "plhdr2" : {"0" : "160", "1" : "192", "2" : "228", "3" : "276", "4" : "332", "5" : "400"}
+    },
+    "19" : {
+        "name" : "Ánh sáng xanh dương - Arpheus",
+        "effect" : "Tăng `plhdr1%` phòng thủ vật lý của tất cả đồng minh. Khi chặn một đòn tấn công của kẻ địch sẽ cho `plhdr2%` cơ hội hồi phục `plhdr3%` Mana và giảm 1 giây thời gian hồi chiêu tất cả kỹ năng.",
+        "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr3" : {"0" : "3", "1" : "3.3", "2" : "3.6", "3" : "3.9", "4" : "4.2", "5" : "4.5"}
+    },
+    "20" : {
+        "name" : "Móng Tay bị nguyền - Baroro",
+        "effect" : "Khi ra đòn chí mạng, tăng `plhdr1%` sát thương vật lý mà mục tiêu phải nhận trong 10 giây và giảm `plhdr2` lực kháng trạng thái chế ngự. Nếu mục tiêu là Boss thì sát thương bản thân gây ra lên Boss tăng `plhdr3%`. Hiệu ứng tăng sát thương gây lên Boss được cộng dồn tối đa 10 lần.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+	"plhdr2" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+    },
+    "21" : {
+        "name" : "Súng trường Rodina Mod.0",
+        "effect" : "Khi tấn công, có 20% cơ hội gây sát thương vật lý tương đương `plhdr1%` sức mạnh tấn công và đẩy lùi kẻ địch. Sau đó, độ chính xác tăng thêm 100 đơn vị trong vòng 10 giây. Hiệu ứng có thể cộng dồn tối đa 3 lần.",
+        "plhdr1" : {"0" : "200", "1" : "240", "2" : "288", "3" : "344", "4" : "414", "5" : "500"}
+    },
+    "22" : {
+        "name" : "Ngọn lửa chiến thắng - Carprain",
+        "effect" : "Các đòn tấn công thường có 20% xác xuất giảm `plhdr1%` tấn công của mục tiêu và khiến mục tiêu nhận thêm `plhdr2%` sát thương phép thuật trong 10 giây. Nếu mục tiêu có hơn 100 lần cộng dồn Ngọn Lửa, mức tăng sát thương phép thuật sẽ nhân đôi.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "23" : {
+        "name" : "Người cũ và người mới, Genesis",
+        "effect" : "Tăng tốc độ niệm tất cả kỹ năng. Mỗi khi dùng kỹ năng, tăng `plhdr1%` lực tấn công và `plhdr2%` lực phòng thủ cho tất cả đồng minh. Hiệu ứng này có thể cộng dồn tối đa 7 lần.",
+        "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"},
+        "plhdr2" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+    },
+    "24" : {
+        "name" : "Tâm trí bất biến - Erekura",
+        "effect" : "Gây sát thương phép ngang mức `plhdr1%` của lực tấn công mỗi giây lên đối thủ xung quanh, làm giảm `plhdr2%` lực tấn công của chúng. Khi nội tại được kích hoạt, hồi phục 30% Mana.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"},
+        "plhdr2" : {"0" : "14", "1" : "17", "2" : "20", "3" : "24", "4" : "29", "5" : "35"}
+    },
+    "25" : {
+        "name" : "Số mệnh cao quý - Mahitra",
+        "effect" : "Bản thân tăng `plhdr1%` sát thương chí mạng, `plhdr2%` lực xuyên phòng thủ. Mọi hiệu ứng đều tăng lên gấp 2 lần khi gây sát thương lên kẻ địch 500 lần.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+    },
+    "26" : {
+        "name" : "Cánh phượng hoàng - Belisa",
+        "effect" : "Đầu mỗi trận chiến, tăng `plhdr1%` phòng thủ vật lý và phòng thủ phép thuật, `plhdr2` tốc độ tấn công trong 15 giây và thêm hiệu ứng bổ sung cho kỹ năng đầu tiên sử dụng.\n[Cổ tự mỏng manh] tăng 500 tỉ lệ chí mạng.\n[Cổ tự trị thương] loại bỏ trạng thái chế ngự người niệm kỹ năng trước khi dùng kỹ năng.\n[Cổ tự lặng im] tăng 1 giây thời gian câm lặng.", 
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "27" : {
+        "name" : "Song kiếm thịnh nộ - Veralta",
+        "effect" : "Sau mỗi 7 giây, tăng `plhdr1%` lực tấn công và `plhdr2` tốc độ tấn công trong 30 giây. Hiệu ứng này có thể cộng dồn tối đa 3 lần và không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "20", "4" : "25", "5" : "30"},
+        "plhdr2" : {"0" : "120", "1" : "140", "2" : "170", "3" : "200", "4" : "250", "5" : "300"}
+    },
+    "28" : {
+        "name" : "Bông hoa vĩnh cửu - Hyacinth",
+        "effect" : "Tăng `plhdr1%` sát thương chí mạng, `plhdr2%` sát thương tấn công cơ bản và `plhdr3%` tầm đánh.",
+        "plhdr1" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "84", "5" : "100"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+	"plhdr3" : {"0" : "6", "1" : "7.2", "2" : "8.6", "3" : "10.5", "4" : "12.5", "5" : "15"}
+    },
+    "29" : {
+        "name" : "Vòng luân chuyển - Eltoirre",
+        "effect" : "Tăng `plhdr1%` tỷ lệ hồi máu của tất cả đồng minh, tăng chỉ số phòng thủ phép thuật tương đương 5% chỉ số tấn công của Laias. Hồi HP tương đương `plhdr2%` chỉ số tấn công của bản thân cho đồng minh có HP thấp nhất mỗi 5 giây.",
+        "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"},
+        "plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+    },
+    "30" : {
+        "name" : "Bầu trời xanh trong - Sherrkyle",
+        "effect" : "Sau mỗi 10 giây, đặt [Dấu Ấn Phán Quyết] kéo dài 15 giây lên 1 kẻ địch bất kỳ, sau đó gây sát thương phép thuật tương đương `plhdr1%` mức tấn công. Bỏ qua phòng thủ nếu mục tiêu không phải là anh hùng.",
+        "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "31" : {
+        "name" : "Người chi phối ánh sáng hồng - Dominicia",
+        "effect" : "Tăng `plhdr1%` lực tấn công khi thể lực trên 50% và giảm `plhdr2%` sát thương phải nhận khi thể lực dưới 50%.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "32" : {
+        "name" : "Chìa khóa không gian - Magnus Fille",
+        "effect" : "Tấn công thường sẽ xuyên qua phạm vi đường thẳng, làm tăng `plhdr1%` lượng sát thương. Mỗi 1 cộng dồn lưỡi dao, tăng thêm `plhdr2%` lượng sát thương gây ra.",
+        "plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"},
+        "plhdr2" : {"0" : "4", "1" : "4.8", "2" : "5.7", "3" : "5.9", "4" : "8.3", "5" : "10"}
+    },
+    "33" : {
+        "name" : "Tinh thể phát minh - Rascal",
+        "effect" : "Mỗi `plhdr1` giây, cộng dồn 1 lượt nạp phép và hồi 1% Mana.",
+        "plhdr1" : {"0" : "1.5", "1" : "1.4", "2" : "1.3", "3" : "1.1", "4" : "0.9", "5" : "0.7"}
+    },
+    "34" : {
+        "name" : "Gầm vang thịnh nổ - Velkinoth",
+        "effect" : "Khi tấn công thường, tăng `plhdr1` lực xuyên phòng thủ và tốc độ tấn công của bản thân. Hiệu ứng có thể cộng dồn tối đa 30 lần và không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+    },
+    "35" : {
+        "name" : "Ánh sáng thẩm phán - Theoria",
+        "effect" : "Khi một đồng minh ngoài người niệm kỹ năng nhận sát thương, có `plhdr1%` xác xuất tạo ra màng bảo vệ trên người, giúp hấp thụ sát thương tương đương `plhdr2%` tấn công trong 5 giây, đồng thời được miễn nhiễm trạng thái chế ngự. Hiệu ứng này chỉ kích hoạt một lần trong 5 giây.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "320", "1" : "384", "2" : "460", "3" : "552", "4" : "660", "5" : "800"}
+    },
+    "36" : {
+        "name" : "Ác quỷ kiên nhẫn - Caethasis",
+        "effect" : "Mỗi khi trận đấu bắt đầu, vào trạng thái tàng hình trong 10 giây và né mọi tấn công trong `plhdr1` giây. Mỗi khi bản thân vào trạng thái tàng hình, sát thương chí mạng sẽ tăng `plhdr2%` trong 10 giây.",
+        "plhdr1" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"},
+	"plhdr1" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"}
+    },
+    "37" : {
+        "name" : "Tên quản ngục tuyệt vọng - Barbatos",
+        "effect" : "Thời lượng trạng thái [Cơn Bão] tăng `plhdr1` giây và khi ở trạng thái [Cơn Bão] thì sát thương chí mạng tăng `plhdr2%`, lực kháng trạng thái chế ngự tăng `plhdr3`.",
+        "plhdr1" : {"0" : "2", "1" : "3", "2" : "4", "3" : "5", "4" : "6", "5" : "7"},
+        "plhdr2" : {"0" : "80", "1" : "90", "2" : "100", "3" : "110", "4" : "120", "5" : "130"},
+	"plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "38" : {
+        "name" : "Lời thầm thí lấp lánh - Goldbreeze",
+        "effect" : "Kỹ năng đánh trúng sẽ tăng `plhdr1%` sát thương phép thuật mà mục tiêu phải nhận trong 10 giây. Hồi HP tương đương `plhdr2%` chỉ số tấn công của bản thân cho đồng minh có HP thấp nhất và giải trừ mọi hiệu ứng có hại ở đồng minh mỗi 8 giây.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "39" : {
+        "name" : "Tia chớp - Legios",
+        "effect" : "Mỗi lần tấn công thường và tấn công kỹ năng sẽ cộng dồn [Tia Chớp] lên bản thân. Khi cộng dồn đạt 50 sẽ phát động trạng thái [Tia Chớp của Legios] trong 15 giây, tăng `plhdr1` tốc độ tấn công, `plhdr2%` sát thương chí mạng, `plhdr3` lực xuyên phòng thủ. Trong trạng thái [Tia Chớp của Legios], [Tia chớp] không được cộng dồn. Hiệu ứng này không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "300", "1" : "360", "2" : "430", "3" : "520", "4" : "620", "5" : "750"},
+        "plhdr2" : {"0" : "100", "1" : "120", "2" : "144", "3" : "173", "4" : "208", "5" : "250"},
+        "plhdr3" : {"0" : "300", "1" : "360", "2" : "430", "3" : "520", "4" : "620", "5" : "750"}
+    },
+    "40" : {
+        "name" : "Sự uy hiếp đầy nhân từ - Phistonia",
+        "effect" : "Sát thương của [Độc Đặc Chế] tăng `plhdr1%` và sát thương vật lý mà mục tiêu mắc [Độc Đặc Chế] phải nhận tăng `plhdr2%` trong 3 giây. Đồng thời, khi đồng minh ngoại trừ bản thân tấn công mục tiêu, sẽ gây thêm sát thương vật lý tương đương `plhdr3%` lực tấn công của Mediana. Hiệu ứng sát thương bổ sung được kích hoạt mỗi giây 1 lần.",
+        "plhdr1" : {"0" : "40", "1" : "48", "2" : "57", "3" : "69", "4" : "83", "5" : "100"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr3" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"}
+    },
+    "41" : {
+        "name" : "Thời gian của bóng trắng - Tempodiana",
+        "effect" : "Khi sử dụng [Bóp Méo Thời Gian], giảm thêm `plhdr1` giây thời gian hồi chiêu của toàn bộ đồng minh, và tăng `plhdr2%` lực tấn công trong 10 giây.",
+        "plhdr1" : {"0" : "2", "1" : "3", "2" : "4", "3" : "5", "4" : "6", "5" : "7"},
+        "plhdr2" : {"0" : "14", "1" : "17", "2" : "21", "3" : "25", "4" : "30", "5" : "35"}
+    },
+    "42" : {
+        "name" : "Răng nanh ác mộng - Kitrax",
+        "effect" : "Lượng sát thương phép của đối tượng bị cướp linh hồn sẽ tăng `plhdr1%`. Kéo dài trong 10 giây.",
+        "plhdr1" : {"0" : "25", "1" : "30", "2" : "36", "3" : "43", "4" : "51", "5" : "60"}
+    },
+    "43" : {
+        "name" : "Điệu nhảy vũ bão - Excilius",
+        "effect" : "Khi tấn công kẻ địch bằng kỹ năng [Tấn công điểm yếu], [Vũ điệu cuồng nhiệt], thời gian hồi chiêu của mỗi kẻ thù bị dính chiêu đó sẽ giảm `plhdr1` giây và tốc độ tấn công của bản thân tăng lên 50 trong 5 giây. Hiệu ứng tăng tốc độ tấn công được cộng dồn tối đa 10 lần.",
+        "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2", "5" : "2.5"}
+    },
+    "44" : {
+        "name" : "Xác rồng - Svelta",
+        "effect" : "Khi ra đòn chí mạng sẽ gây sát thương vật lý bằng `plhdr1%` sức tấn công với xác xuất `plhdr2%` và hồi 5% Mana. Nếu mục tiêu là rồng thì sẽ bị ngất trong 1.5 giây.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "200", "1" : "240", "2" : "280", "3" : "340", "4" : "420", "5" : "500"}
+    },
+    "45" : {
+        "name" : "Hào quang Thần Vương - Zaries",
+        "effect" : "Khi sử dụng kỹ năng, [Ý chí của sa mạc] sẽ cộng dồn một lần. [Ý chí của sa mạc] tăng `plhdr1%` lực tấn công và `plhdr2%` sát thương chí mạng trong 30 giây. Hiệu ứng có thể cộng dồn tối đa 8 lần và không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "4", "1" : "4.8", "2" : "5.6", "3" : "6.8", "4" : "8.4", "5" : "10"},
+	"plhdr2" : {"0" : "4", "1" : "4.8", "2" : "5.6", "3" : "6.8", "4" : "8.4", "5" : "10"}
+    },
+    "46" : {
+        "name" : "Thợ dệt trời sao - Mellifluo",
+        "effect" : "Tăng `plhdr1%` và `plhdr2%` sát thương chí mạng trong 10 giây với mỗi đòn đánh thường. Hiệu ứng này có thể cộng dồn tối đa 20 lần và không thể bị gỡ bỏ. Hồi phục `plhdr3` Mana khi sử dụng kỹ năng.",
+        "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"},
+        "plhdr2" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"},
+        "plhdr3" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "47" : {
+        "name" : "Bài ca mở đường - Matimaruma",
+        "effect" : "Mỗi khi sử dụng 3 lần kỹ năng, sẽ loại bỏ các hiệu ứng xấu của toàn bộ đồng minh và giảm `plhdr1%` tất cả sát thương phải nhận trong 10 giây.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "48" : {
+        "name" : "Thẻ bài định mệnh - Del Arcana",
+        "effect" : "Các đòn tấn công có 77.7% xác xuất tăng `plhdr1` tốc độ tấn công và `plhdr2%` hồi MP mỗi giây trong 15 giây. Hiệu ứng này có thể cộng dồn tối đa 15 lần.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "49" : {
+        "name" : "Cây sáo của ngọn gió yên ắng - Rakshathar",
+        "effect" : "Tăng cộng dồn tối đa của 'Nước phép ngứa ngáy' lên `plhdr1` lần, khi tấn công thường sẽ có 10% xác xuất tấn công lên 1 đối thủ ngẫu nhiên, gây ra sát thương tương đương `plhdr2%` sức tấn công và làm Câm Lặng trong 1 giây.",
+        "plhdr1" : {"0" : "55", "1" : "60", "2" : "65", "3" : "70", "4" : "75", "5" : "80"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "50" : {
+        "name" : "Hào quang mặt trời - Ignisius",
+        "effect" : "Khi đòn tấn công thường đánh trúng kẻ địch 5 lần, mục tiêu sẽ nhận thêm `plhdr1%` sát thương phép trong 10 giây và bị choáng trong 0.5 giây.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "51" : {
+        "name" : "Chó săn địa ngục - Akistra",
+        "effect" : "Đòn tấn công thông thường sẽ bắn thêm một viên đạn có khả năng dùng `plhdr1%` lực tấn công để gây sát thương vật lý. Khi kết thúc kỹ năng, hiệu ứng [Chó săn địa ngục, Akistra] phát động, tăng `plhdr2%` lực tấn công và `plhdr3%` sát thương chí mạng trong 20 giây. Hiệu ứng [Chó săn địa ngục, Akistra] chỉ được kích hoạt một lần vào giây thứ 20.",
+        "plhdr1" : {"0" : "50", "1" : "60", "2" : "70", "3" : "85", "4" : "100", "5" : "125"},
+        "plhdr2" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"},
+        "plhdr3" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"}
+    },
+    "52" : {
+        "name" : "Đôi cánh sa ngã - Apoliox",
+        "effect" : "Cứ mỗi `plhdr1` giây, nhận được trạng thái [Thánh Thể Lời Nguyền] và tăng `plhdr2%` lực tấn công trong 10 giây.",
+        "plhdr1" : {"0" : "20", "1" : "18", "2" : "16", "3" : "14", "4" : "12", "5" : "10"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "53" : {
+        "name" : "Linh hồn hư vô - Dunn Nemecia",
+        "effect" : "Khi dùng một kỹ năng, nhận được trạng thái [Linh hồn hư vô] trong `plhdr1` giây và né tránh tất cả đòn tấn công. Hiệu ứng này kích hoạt mỗi lần 10 giây. Tăng `plhdr2%` sát thương chí mạng của đồng minh đang liên kết linh hồn.", 
+        "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"},
+        "plhdr2" : {"0" : "30", "1" : "36", "2" : "42", "3" : "51", "4" : "63", "5" : "75"}
+    },
+    "54" : {
+        "name" : "Kẻ hành quyết dưới quyền - Elsion",
+        "effect" : "Giảm 20% tỷ lệ hồi máu của bản thân. Khi kỹ năng chí mạng trúng mục tiêu, gây thêm sát thương phép thuật tương đương `plhdr1%` lực tấn công. Giảm `plhdr2%` tỷ lệ hồi máu của mục tiêu trong 5 giây và tăng `plhdr3%` tỷ lệ hồi máu của bản thân trong 20 giây. Hiệu ứng tăng tỷ lệ hồi máu có thể cộng dồn tối đa 5 lần và không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "30", "1" : "36", "2" : "42", "3" : "51", "4" : "63", "5" : "75"},
+        "plhdr2" : {"0" : "24", "1" : "29", "2" : "35", "3" : "42", "4" : "50", "5" : "60"},
+        "plhdr3" : {"0" : "4", "1" : "5", "2" : "6", "3" : "7", "4" : "9", "5" : "10"}
+    },
+    "55" : {
+        "name" : "Tính chất lòng tham - Perion",
+        "effect" : "Lực tấn công và tốc độ tấn công tăng 0,5% trong 30 giây mỗi khi ra đòn kỹ năng. Hiệu ứng này được cộng dồn tối đa `plhdr1` lần và không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "80", "1" : "90", "2" : "110", "3" : "130", "4" : "160", "5" : "200"}
+    },
+    "56" : {
+        "name" : "Dòng suối bất tận - Cielamaha",
+        "effect" : "Mana hồi `plhdr1` mỗi giây và với mỗi đòn tấn công, có 80% xác xuất gây sát thương vật lý, tương đương `plhdr2%` lực tấn công.",
+        "plhdr1" : {"0" : "50", "1" : "60", "2" : "70", "3" : "85", "4" : "105", "5" : "125"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "28", "3" : "34", "4" : "42", "5" : "50"}
+    },
+    "57" : {
+        "name" : "Dòng cát thầm thì - Arlaq",
+        "effect" : "[Phước lành của ốc đảo] có thể cộng dồn tối đa `plhdr1` lần và khi tấn công thường, có xác xuất 10% giảm `plhdr2%` thời gian hồi chiêu của tất cả kỹ năng.",
+        "plhdr1" : {"0" : "14", "1" : "15", "2" : "16", "3" : "17", "4" : "18", "5" : "20"},
+        "plhdr2" : {"0" : "4", "1" : "4.8", "2" : "5.8", "3" : "7", "4" : "8.4", "5" : "10"}
+    },
+    "58" : {
+        "name" : "Phước lành ánh sáng - Benedicia",
+        "effect" : "Trong 30 giây kể từ khi trận đấu bắt đầu, sát thương vật lý mà toàn bộ đồng minh phải nhận giảm `plhdr1%` và tốc độ tấn công tăng `plhdr2`, đồng thời sát thương gây ra cho kẻ địch không phải anh hùng tăng `plhdr3%`.", 
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"},
+        "plhdr3" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+    },
+    "59" : {
+        "name" : "Tân tinh lăng trụ - Arc Lumineir",
+        "effect" : "Nhận nhiều hiệu ứng khác nhau khi thu được ánh sáng.\n[Ánh Sáng Đỏ] tăng `plhdr1%` lực tấn công của toàn bộ đồng minh trong 10 giây.\n[Ánh Sáng Xanh Da Trời] tăng `plhdr2%` lực phòng thủ của toàn bộ đồng minh trong 10 giây.\n[Ánh Sáng Xanh Lá] hồi 300 Mana của toàn bộ đồng minh.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr3" : {"0" : "300", "1" : "360", "2" : "420", "3" : "510", "4" : "630", "5" : "750"}
+    },
+    "60" : {
+        "name" : "Họng rồng thét gào - Acravita",
+        "effect" : "Khi đánh trúng `plhdr1` đòn tấn công thường, gây sát thương phép thuật tương đương 100% lực tấn công lên 2 kẻ địch bất kỳ, làm choáng chúng trong 0.5 giây và trở thành [Bão Tố của Neraxis] trong 10 giây. Trong thời gian trở thành [Bão Tố của Neraxis], tăng phòng thủ vật lý của tất cả đồng minh tương đương `plhdr2%` sức phòng thủ vật lý của bản thân và phòng thủ phép thuật tương đương `plhdr3%` sức phòng thủ phép thuật của bản thân.",
+        "plhdr1" : {"0" : "20", "1" : "19", "2" : "18", "3" : "17", "4" : "16", "5" : "15"},
+        "plhdr2" : {"0" : "4", "1" : "4.8", "2" : "5.7", "3" : "6.9", "4" : "8.3", "5" : "10"},
+        "plhdr3" : {"0" : "4", "1" : "4.8", "2" : "5.7", "3" : "6.9", "4" : "8.3", "5" : "10"}
+    },
+    "61" : {
+        "name" : "Gươm kiêu hãnh - White Belona",
+        "effect" : "Mỗi 1 kỹ năng sử dụng khi đang trong thời gian đợi dùng lại chiêu sẽ tăng thêm `plhdr1%` lượng sát thương do bản thân gây ra.",
+        "plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"}
+    },
+    "62" : {
+        "name" : "Mắt bão - Yanadis",
+        "effect" : "Thời gian kéo dài trạng thái sốc điện tăng `plhdr1` giây và khi tấn công thường lên địch ở trạng thái sốc điện sẽ làm giảm `plhdr2%` thời gian hồi chiêu.",
+        "plhdr1" : {"0" : "2", "1" : "3", "2" : "4", "3" : "5", "4" : "6", "5" : "7"},
+        "plhdr2" : {"0" : "1.6", "1" : "1.9", "2" : "2.3", "3" : "2.7", "4" : "3.3", "5" : "4"}
+    },
+    "63" : {
+        "name" : "Sự ca tụng rực rỡ - Brauxio",
+        "effect" : "Mỗi 15 giây, tạo ra một màng bảo vệ trong vòng 10 giây chặn sát thương với mức ngang `plhdr1%` lực tấn công của bản thân và tăng `plhdr2%` lực tấn công. Miễn nhiệm trạng thái xấu trong trạng thái duy trì màng bảo vệ.",
+        "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "64" : {
+        "name" : "Gia tốc vô hạn - Riventina",
+        "effect" : "Tốc độ tấn công tăng `plhdr1`. Khi tấn công lên đối thủ đang ở trạng thái [Phát hiện mục tiêu] sẽ gây ra thêm sát thương phép tương đương `plhdr2%` lực tấn công. Hiệu quả sát thương thêm chỉ kích hoạt mỗi lần 2 giây.",
+        "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+        "plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "65" : {
+        "name" : "Giai điệu quyến rũ - Schwanheite",
+        "effect" : "Khi nhận được [Thôi miên], thời gian hồi chiêu của kỹ năng sử dụng giảm `plhdr1%` và hồi phục `plhdr2` điểm Mana của bản thân.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "20", "5" : "25"},
+        "plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "66" : {
+        "name" : "Đại bác di động bất diệt kiểu 0 - Heaven Shatterer",
+        "effect" : "Cứ mỗi giây lực tấn công tăng 2%. Hiệu ứng này được cộng dồn tối đa `plhdr1%`.",
+        "plhdr1" : {"0" : "15", "1" : "20", "2" : "25", "3" : "30", "4" : "35", "5" : "40"}
+    },
+    "67" : {
+        "name" : "Hỗn loạn giằng xé - Zakadras",
+        "effect" : "Tăng `plhdr1` tỉ lệ chí mạng và `plhdr2%` sát thương chí mạng.",
+        "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+        "plhdr2" : {"0" : "40", "1" : "48", "2" : "58", "3" : "70", "4" : "82", "5" : "100"}
+    },
+    "68" : {
+        "name" : "Thú vui của lãng khách - Lu Etrona Dice",
+        "effect" : "Khi kỹ năng trúng mục tiêu gây chí mạng, tăng `plhdr1%` sát thương phép thuật mà mục tiêu phải nhận trong 10 giây và hồi phục `plhdr2` Mana cho bản thân.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+    },
+    "69" : {
+        "name" : "Giông tố siêu thanh - Gigantix",
+        "effect" : "Tăng `plhdr1` tốc độ tấn công. Các đòn tấn công thường và kỹ năng tạo ra một lần cộng dồn [Bùng nổ] cho bản thân và có 3% xác xuất làm choáng mục tiêu trúng đòn trong 4 giây. Khi đạt cộng dồn [Bùng nổ] đến 100, [Gigantix] phát nổ, tăng `plhdr2` tốc độ tấn công và tỉ lệ né. Hiệu ứng này không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"},
+        "plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+    },
+    "70" : {
+        "name" : "Ngày kết án - Elicipira",
+        "effect" : "Khuếch đại sức mạnh đá cẩm thạch, tăng rộng phạm vị hiệu ứng [Hoa đỏ nở rộ]. Tấn công thường và tấn công kỹ năng có xác xuất 4% gây thêm sát thương phép thuật tương đương `plhdr1%` lực tấn công. Sát thương lên Boss tăng lên gấp 2 lần.",
+        "plhdr1" : {"0" : "500", "1" : "600", "2" : "720", "3" : "860", "4" : "1000", "5" : "1250"}
+    },
+    "71" : {
+        "name" : "Huyết thương nguyên khối",
+        "effect" : "Tăng `plhdr1%` sát thương chí mạng. Khi tung đòn tấn công thường, gây sát thương vật lý tương đương `plhdr2%` lực tấn công với [Ngọn lửa nguyên khối] và hồi phục HP tương đương 20% sát thương. Khi [Phá bỏ giới hạn] hoạt động, hiệu ứng của [Ngọn lửa nguyên khối] sẽ tăng gấp đôi.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "28", "3" : "34", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "30", "1" : "36", "2" : "43", "3" : "52", "4" : "62", "5" : "75"}
+    },
+    "72" : {
+        "name" : "Khu hồ ký ức - Armekith",
+        "effect" : "Giảm `plhdr1%` sát thương phải nhận, và tăng `plhdr2` lực kháng trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+    },
+    "73" : {
+        "name" : "Hố sâu vô vọng - Targarios",
+        "effect" : "Cứ mỗi 10 giây, tăng cho bản thân `plhdr1%` lực tấn công, `plhdr2%` lực phòng thủ và giảm `plhdr3` giây thời gian hồi chiêu. Khi trong trạng thái [Lâm trận], nhân đôi mức giảm thời gian hồi chiêu. Hiệu ứng tăng công và thủ này có thể cộng dồn tối đa 4 lần và không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+        "plhdr3" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+    },
+    "74" : {
+        "name" : "Phản công - Maxithea",
+        "effect" : "Mỗi khi dùng kỹ năng, tăng `plhdr1%` lực tấn công và `plhdr2%` sát thương chí mạng cho toàn bộ đồng minh. Hiệu ứng này có thể cộng dồn 4 lần, và tất cả hiệu ứng sẽ nhân đôi khi đạt mức cộng dồn tối đa. Hiệu quả này không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2", "5" : "2.5"},
+        "plhdr2" : {"0" : "2", "1" : "2.4", "2" : "2.8", "3" : "3.4", "4" : "4.2", "5" : "5"}
+    },
+    "75" : {
+        "name" : "Chiếc rương ngát hương - Etelia",
+        "effect" : "Giảm `plhdr1` giây thời gian hồi chiêu của tất cả kỹ năng, tăng `plhdr2` tăng `plhdr2` điểm hỗ trợ tốc độ tấn công và lực xuyên phòng thủ từ [Lấy bất cứ cái gì đi!].",
+        "plhdr1" : {"0" : "1.4", "1" : "1.7", "2" : "2.1", "3" : "2.5", "4" : "3", "5" : "3.6"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "76" : {
+        "name" : "Nắm đấm mãnh thú - Mastra",
+        "effect" : "Làm tăng `plhdr1%` sát thương chí mạng của bản thân trong 5 giây khi ra đòn chí mạng. Hiệu ứng này được cộng dồn tối đa 7 lần.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "77" : {
+        "name" : "Đặc quyền vô hạn - Accordio",
+        "effect" : "Thay đổi số lần cộng dồn tối đa [Kiến thức của nhà tài phiệt hàng đầu] thành `plhdr1` và nhận thêm lần cộng dồn [Kinh nghiệm] mỗi `plhdr2` giây.",
+        "plhdr1" : {"0" : "9", "1" : "10", "2" : "11", "3" : "12", "4" : "13", "5" : "15"},
+        "plhdr2" : {"0" : "14", "1" : "13", "2" : "12", "3" : "11", "4" : "10", "5" : "9"}
+    },
+    "78" : {
+        "name" : "Ngọn sóng bảo vệ - Gaiamenes",
+        "effect" : "[Niềm tự hào của Orvelia] được cộng dồn mỗi lần sử dụng kỹ năng. [Niềm tự hào của Orvelia] không thể bị gỡ bỏ và khi được cộng dồn 3 lần, [Phước lành của Orvelia] sẽ được kích hoạt, gây sát thương vật lý tương đương `plhdr1%` mức tấn công cho kẻ địch trong phạm vi rộng và tăng `plhdr2%` sát thương vật lý mà mục tiêu phải nhận trong 20 giây. [Phước lành của Orvelia] cũng tăng `plhdr3%` phòng thủ phép thuật trong 10 giây.",
+        "plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+        "plhdr2" : {"0" : "25", "1" : "30", "2" : "36", "3" : "43", "4" : "51", "5" : "60"},
+        "plhdr3" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "79" : {
+        "name" : "Yến tiệc trăm vị - Tempora Fyrr",
+        "effect" : "Mỗi `plhdr1` giây, được 1 lần cộng dồn [Nguyên liệu tuyệt hảo] và hồi phục 1 quả cầu Mana.",
+        "plhdr1" : {"0" : "10", "1" : "9", "2" : "8", "3" : "7", "4" : "6", "5" : "5"}
+    },
+    "80" : {
+        "name" : "Chùy phục sinh - Hartnon",
+        "effect" : "Kỹ năng đánh trúng sẽ tăng `plhdr1%` sát thương vật lý mà mục tiêu phải nhận trong 5 giây và giảm `plhdr2` Mana mỗi giây.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "80", "1" : "100", "2" : "120", "3" : "140", "4" : "170", "5" : "200"}
+    },
+    "81" : {
+        "name" : "Gan dạ cổ đại - Seliere",
+        "effect" : "Vào đầu trận chiến, tăng `plhdr1%` sức tấn công, `plhdr2%` lực phòng thủ trong `plhdr3` giây cho mọi đồng minh, rồi giảm 1 điểm tiêu hao Mana của kỹ năng tiếp theo mà bản thân sử dụng. Hiệu ứng này không thể bị gỡ bỏ.",
+        "plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+	"plhdr2" : {"0" : "10", "1" : "11", "2" : "12", "3" : "13", "4" : "14", "5" : "15"}
+    },
+    "82" : {
+        "name" : "Trò đùa vặt vãnh - HN-0",
+        "effect" : "Tăng `plhdr1%` sát thương chí mạng của Hanus. Cứ mỗi `plhdr2` giây, Hanus bắn [Trò đùa vặt vãnh, HN-tên lửa có điều khiển] vào một đối thủ ngẫu nhiên, gây sát thương vật lý tương đương với `plhdr3%` lực tấn công và đồng thời cho phép tạo ra một trong những hiệu ứng trong những hiệu ứng: choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "20", "1" : "17", "2" : "14", "3" : "12", "4" : "10", "5" : "8"},
+        "plhdr3" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "83" : {
+        "name" : "Quyền uy của Thần Vương - Tyrannicus",
+        "effect" : "Khi tấn công thường và tấn công kỹ năng, được cho hiệu ứng bổ sung tùy theo trạng thái của bản thân.\n[Thần Vương] làm choáng mục tiêu trong 1 giây với xác xuất `plhdr1%`.\n[Bạo chúa] tăng `plhdr2%` sát thương vật lý mà mục tiêu phải nhận trong 5 giây. Mục tiêu đã nhận hiệu ứng này sẽ không nhận lại lần nữa trong 3 giây.",
+        "plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+        "plhdr2" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "84" : {
+	"name" : "Phiến đá cam khổ - Prochika",
+	"effect" : "HP tối đa của bản thân tăng `plhdr1%` và nếu trúng đòn 50 lần, sẽ vào trạng thái [Phẫn nộ của tộc Shuti]. Khi vào trạng thái [Phẫn nộ của tộc Shuti], lập tức gỡ bỏ hiệu ứng xấu mà bản thân đang mắc phải, đồng thời miễn nhiễm trạng thái chế ngự trong 5 giây và tăng `plhdr2` lực xuyên phòng thủ. Không thể gỡ bỏ hiệu ứng này và trong thời lượng trạng thái [Phẫn nộ của tộc Shuti], dù có trúng đòn thì cộng dồn cũng không được tích lũy.",
+	"plhdr1" : {"0" : "8", "1" : "10", "2" : "12", "3" : "14", "4" : "17", "5" : "20"},
+	"plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "85" : {
+	"name" : "Bóng tối tạo hóa bé nhỏ - Naav Gehen",
+	"effect" : "Mỗi khi Evan sử dụng kỹ năng, hồi `plhdr1` Mana của bản thân và giảm `plhdr2%` sát thương vật lý mà toàn bộ đồng minh phải nhận trong 5 giây. Đồng thời tăng `plhdr3%` sát thương vật lý mà toàn bộ địch phải nhận trong 5 giây.",
+	"plhdr1" : {"0" : "400", "1" : "480", "2" : "580", "3" : "700", "4" : "840", "5" : "1000"},
+	"plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr3" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "86" : {
+	"name" : "Lễ hội lấp lánh đủ màu - Diogemme",
+	"effect" : "Tăng `plhdr1%` lực tấn công của bản thân. Khi tấn công thường và tấn công kỹ năng, giảm `plhdr2%` lực tấn công của mục tiêu trong 5 giây. Tăng `plhdr3%` mọi sát thương mà mục tiêu phải nhận nếu mục tiêu là Boss.",
+	"plhdr1" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"},
+	"plhdr2" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"},
+	"plhdr3" : {"0" : "12", "1" : "14", "2" : "17", "3" : "21", "4" : "25", "5" : "30"}
+    },
+    "87" : {
+	"name" : "Ấn chương cướp đoạt - Kaliosk",
+	"effect" : "Sát thương chí mạng tăng `plhdr1%`. Mỗi khi gây sát thương bằng kỹ năng [Ấn chương cướp đoạt], giảm `plhdr2` Mana của mục tiêu, đồng thời hồi `plhdr3` Mana của bản thân.",
+	"plhdr1" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+	"plhdr2" : {"0" : "500", "1" : "600", "2" : "700", "3" : "800", "4" : "900", "5" : "1000"},
+	"plhdr3" : {"0" : "500", "1" : "600", "2" : "700", "3" : "800", "4" : "900", "5" : "1000"}
+    },
+    "88" : {
+	"name" : "Cơn nóng bức ầm ĩ - Tersia",
+	"effect" : "Mỗi khi tấn công kẻ địch đang ở trạng thái [Tia lửa cháy mãi], sẽ tăng `plhdr1%` lực tấn công và phòng thủ của bản thân, và tăng `plhdr2%` sát thương được gây nên bởi [Tia lửa cháy mãi]. Hiệu ứng này được cộng dồn tối đa đến 20 lần.",
+	"plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"},
+	"plhdr2" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"}
+    },
+    "89" : {
+	"name" : "Thâm dạ ma kiếm, Dạ Thiên - Ám Ảnh - Mạng Che",
+	"effect" : "Nhận được hiệu ứng sau khi chọn một trong số Thâm dạ ma kiếm, Dạ Thiên - Ám Ảnh - Mạng Che.\n[Ma kiếm trời đêm, Dạ Thiên] tăng `plhdr1` tốc độ tấn công, `plhdr2` độ chính xác và `plhdr3%` sát thương của tấn công thường.\n[Ma kiếm bóng đen dày đặc, Ám Ảnh] hồi `plhdr4` Mana mỗi giây.\n[Ma kiếm chém bóng tối, Mạng Che] tăng `plhdr5%` sát thương chí mạng, `plhdr6%` lực tấn công của bản thân mỗi 10 giây. Hiệu ứng này được cộng dồn tối đa 3 và không thể bị gỡ bỏ.",
+	"plhdr1" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+	"plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+	"plhdr3" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+	"plhdr4" : {"0" : "80", "1" : "96", "2" : "115", "3" : "138", "4" : "165", "5" : "200"},
+	"plhdr5" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr6" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"}
+    },
+    "90" : {
+	"name" : "Giấc mơ của vị thần nhân tạo - Innocentia",
+	"effect" : "Bản thân tăng `plhdr1%` lực tấn công và `plhdr2%` tỷ lệ hồi máu. Khi trở thành trạng thái [Thực thể siêu việt], lượng tăng lực tấn công đổi thành `plhdr3%` và lượng tăng tỷ lệ hồi máu đổi thành `plhdr4%`.",
+	"plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr2" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr3" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"},
+	"plhdr4" : {"0" : "20", "1" : "24", "2" : "29", "3" : "35", "4" : "42", "5" : "50"}
+    },
+    "91" : {
+	"name" : "Kiếm Thánh sa ngã - Aea",
+	"effect" : "Khi tấn công thường và tấn công kỹ năng, giảm `plhdr1%` tỷ lệ hồi máu của mục tiêu trong 10 giây và gây thêm sát thương vật lý tương đương `plhdr2%` lực tấn công với xác xuất 35%. Hiệu ứng giảm tỷ lệ hồi máu được cộng dồn tối đa 12 lần.",
+	"plhdr1" : {"0" : "1", "1" : "1.2", "2" : "1.4", "3" : "1.7", "4" : "2.1", "5" : "2.5"},
+	"plhdr2" : {"0" : "100", "1" : "120", "2" : "140", "3" : "170", "4" : "210", "5" : "250"}
+    },
+    "92" : {
+	"name" : "Thiên thần tuyệt vọng - Rosmerta",
+	"effect" : "Khi sử dụng kỹ năng, hồi HP của 2 đồng minh có lực tấn công cao nhất tương đương `plhdr1%` lực tấn công của Frey sa ngã, đồng thời tăng `plhdr2` lực xuyên phòng thủ trong 7 giây. Tăng `plhdr3` tốc độ tấn công của [Chúa tể bóng tối Kasel] nếu trong đồng minh có [Chúa tể bóng tối Kasel].",
+	"plhdr1" : {"0" : "140", "1" : "170", "2" : "210", "3" : "250", "4" : "300", "5" : "360"},
+	"plhdr2" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"},
+	"plhdr3" : {"0" : "200", "1" : "240", "2" : "290", "3" : "350", "4" : "420", "5" : "500"}
+    },
+    "93" : {
+	"name" : "Kẻ quy phục bóng tối - Del Terravion",
+	"effect" : "Cứ mỗi 10 giây, tăng `plhdr1%` sát thương vật lý mà kẻ địch có sức tấn công cao nhất phải nhận trong 12 giây, đồng thời tăng `plhdr2%` sát thương mà bản thân gây ra cho kẻ địch. Hiệu ứng tăng sát thương gây ra cho địch được cộng dồn tối đa 6 lần và không thể bị gỡ bỏ.",
+	"plhdr1" : {"0" : "10", "1" : "12", "2" : "14", "3" : "17", "4" : "21", "5" : "25"},
+	"plhdr2" : {"0" : "2", "1" : "2.4", "2" : "2.9", "3" : "3.5", "4" : "4.2", "5" : "5"}
+    }
+}
